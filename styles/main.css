@@ -45,6 +45,25 @@ h4 {
 body {
   background-color: #330303;
 }
+header#mainHeader {
+  background-color: #b5e3af;
+}
+header#mainHeader img {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+nav#mainNav {
+  display: inline-block;
+}
+nav#mainNav ul li {
+  display: inline;
+  font-size: 30px;
+  margin-left: 100px;
+  font-family: Young, sans-serif;
+}
+nav#mainNav ul li a {
+  color: #0e8b3d;
+}
 /*************CONTACT*************/
 /**************/
 /*********MEDIA QUERIES*********/

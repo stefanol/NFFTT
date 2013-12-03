@@ -1,0 +1,103 @@
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Ariel;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2.3em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.2em;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/******GLOBAL STYLES*******/
+body {
+  background-color: #330303;
+}
+header#mainHeader {
+  background-color: #b5e3af;
+}
+header#mainHeader img {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+nav#mainNav {
+  display: inline-block;
+}
+nav#mainNav ul li {
+  display: inline;
+  font-size: 30px;
+  margin-left: 100px;
+  font-family: Young, sans-serif;
+}
+nav#mainNav ul li a {
+  color: #0e8b3d;
+}
+section#left {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.65%;
+  float: left;
+  margin-top: 300px;
+}
+section#treeDonate img {
+  float: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0 5.5%;
+  height: 200px;
+  width: 200px;
+  margin-top: 300px;
+}
+section#right {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.65%;
+  float: right;
+  margin-top: 300px;
+}
+.red {
+  color: #6d0202;
+  font-family: 'Champagne & Limousines', sans-serif;
+}
+/*************CONTACT*************/
+/**************/
+/*********MEDIA QUERIES*********/
+/********HOME PAGE********/
+/*********************/
+/********MENU*********/
+/***********************/
+/*********CONTACT********/
+/************************/

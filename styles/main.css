@@ -48,11 +48,11 @@ body {
   background-image: url('../images/backgrounds/background1.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.9;
   height: 580px;
 }
 nav#mainNav {
   display: inline-block;
+  position: fixed;
 }
 nav#mainNav ul li {
   display: inline;
@@ -64,6 +64,8 @@ nav#mainNav ul li a {
   color: #0e8b3d;
 }
 header#mainHeader {
+  width: 100%;
+  position: fixed;
   background-color: #b5e3af;
 }
 header#mainHeader img {

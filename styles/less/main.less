@@ -16,12 +16,12 @@ body {
 	background-image: url('../images/backgrounds/background1.jpg');
 	background-size: cover;
 	background-position: center;
-	opacity: 0.9;
 	height: 580px;
 }
 
 nav#mainNav {
     display: inline-block;
+    position: fixed;
 	ul li {
 	    display: inline;
 	    font-size: 30px;
@@ -35,6 +35,8 @@ nav#mainNav {
 }
 
 header#mainHeader {
+	width: 100%;
+	position:fixed;
     background-color: @bggreen;
     img {
             margin-left: 20px;

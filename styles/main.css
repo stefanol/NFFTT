@@ -159,6 +159,7 @@ section#aboutUs {
   color: white;
   margin-top: 20px;
   clear: both;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
 }
 aside#donors {
   float: left;
@@ -175,6 +176,7 @@ aside#donors ul li {
 section#whatWeDo {
   font-size: 18px;
   color: white;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
   /*width: 70%;*/
 
   float: left;
@@ -204,6 +206,7 @@ section#history {
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
   /*clear: both;*/
 
 }
@@ -230,13 +233,11 @@ section.formgroup {
   color: #000;
 }
 section#blog {
-  clear: both;
-}
-section#blog {
   float: left;
   display: inline-block;
   width: 100%;
   margin: 0 5.5%;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
   clear: both;
   margin-right: 50px;
 }
@@ -251,6 +252,11 @@ p#post {
 }
 #post2 {
   width: 80%;
+}
+footer.bottomFooter {
+  background-color: #b5e3af;
+  clear: both;
+  text-align: center;
 }
 /*************CONTACT*************/
 /**************/

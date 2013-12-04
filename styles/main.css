@@ -48,11 +48,12 @@ body {
   background-image: url('../images/backgrounds/background1.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.9;
   height: 580px;
 }
 nav#mainNav {
   display: inline-block;
+  position: fixed;
+  background: #b5e3af;
 }
 nav#mainNav ul li {
   display: inline;
@@ -65,6 +66,8 @@ nav#mainNav ul li a {
 }
 header#mainHeader {
   background-color: #b5e3af;
+  width: 100%;
+  position: fixed;
 }
 header#mainHeader img {
   margin-left: 20px;
@@ -230,6 +233,7 @@ section#history {
 section#getInvolved {
   width: 40%;
   margin: 0 2.2%;
+  font-size: 20px;
   background: #b5e3af;
   font-family: 'Tekton Pro', sans-serif;
   float: left;

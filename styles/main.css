@@ -167,8 +167,9 @@ aside#donors {
   margin: 0 2.2%;
 }
 aside#donors ul li {
-  /*width: 400px;*/
-
+  display: inline;
+  width: 200px;
+  padding: 5px;
 }
 /*************CONTACT*************/
 /**************/

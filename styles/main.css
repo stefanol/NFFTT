@@ -152,6 +152,24 @@ section#right {
   font-size: 40px;
   margin-left: 130px;
 }
+section#aboutUs {
+  font-size: 18px;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  margin: 0 2.75%;
+  color: white;
+}
+aside#donors {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin: 0 2.2%;
+}
+aside#donors ul li {
+  /*width: 400px;*/
+
+}
 /*************CONTACT*************/
 /**************/
 /*********MEDIA QUERIES*********/

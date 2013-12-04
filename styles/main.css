@@ -144,6 +144,23 @@ section#right {
   margin-top: 380px;
   color: white;
 }
+.topBtn {
+  background: #b5e3af;
+  color: #828282;
+  border: 2px solid #eee;
+  height: 28px;
+  width: 100px;
+  margin: -30px 0 0 150px;
+  overflow: hidden;
+  display: block;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+.topBtn:hover {
+  background: #a6822d;
+  color: white;
+  cursor: pointer;
+}
 .red {
   color: #6d0202;
   font-family: 'Champagne & Limousines', sans-serif;

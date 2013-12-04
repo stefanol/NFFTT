@@ -174,7 +174,7 @@ aside#donors ul li {
 }
 section#whatWeDo {
   font-size: 18px;
-  /*background-color: blue;*/
+  color: white;
   /*width: 70%;*/
   float: left;
   display: inline-block;
@@ -207,7 +207,6 @@ section#history {
 section#getInvolved {
   width: 40%;
   margin: 0 2.2%;
-  clear: both;
   background: #b5e3af;
   /*width: 300px;*/
   float: left;

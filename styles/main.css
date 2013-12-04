@@ -20,9 +20,7 @@ h2,
 h3,
 h4 {
   font-family: Ariel;
-  font-weight: 700;
   line-height: 1em;
-  text-transform: uppercase;
 }
 h1 {
   font-size: 2.3em;
@@ -159,12 +157,14 @@ section#aboutUs {
   width: 50%;
   margin: 0 2.75%;
   color: white;
+  margin-top: 20px;
 }
 aside#donors {
   float: left;
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
+  margin-top: 20px;
 }
 aside#donors ul li {
   display: inline;
@@ -205,8 +205,9 @@ section#history {
 }
 section#getInvolved {
   float: left;
-  /*.widthfloat(40%);*/
-
+  display: inline-block;
+  width: 40%;
+  margin: 0 2.2%;
 }
 /*************CONTACT*************/
 /**************/

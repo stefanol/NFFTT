@@ -208,6 +208,7 @@ section#history {
 }
 section#getInvolved {
   background: #b5e3af;
+  font-family: 'Tekton Pro', sans-serif;
   float: left;
   display: inline-block;
   width: 50%;

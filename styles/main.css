@@ -168,7 +168,15 @@ aside#donors {
 }
 aside#donors ul li {
   /*width: 400px;*/
-
+}
+section#blog {
+  width: 70%;
+}
+section#blog img {
+  float: left;
+}
+section#blog h1 {
+  float: right;
 }
 /*************CONTACT*************/
 /**************/

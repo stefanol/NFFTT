@@ -26,6 +26,7 @@ h4 {
 }
 h1 {
   font-size: 2.3em;
+  font-family: 'Amplify Personal Use Only', sans-serif;
 }
 h2 {
   font-size: 1.8em;
@@ -43,14 +44,14 @@ h4 {
 }
 /******GLOBAL STYLES*******/
 body {
-  background-color: #330303;
+  background-color: #5aa89b;
 }
-header#mainHeader {
-  background-color: #b5e3af;
-}
-header#mainHeader img {
-  margin-left: 20px;
-  margin-top: 5px;
+#contain {
+  background-image: url('../images/backgrounds/background1.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  height: 580px;
 }
 nav#mainNav {
   display: inline-block;
@@ -64,33 +65,109 @@ nav#mainNav ul li {
 nav#mainNav ul li a {
   color: #0e8b3d;
 }
+header#mainHeader {
+  background-color: #b5e3af;
+}
+header#mainHeader img {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+/******DO NOT DELETE USE CODE FOR PICTURE BACKGROUND WORK IN PROGRESS*****/
+/*nav#mainNav {*/
+/*display: inline-block;*/
+/*@navbg: lighten(@grassgreen, 10%);*/
+/*background: fadeout(@navbg, 10%);*/
+/*position: fixed;*/
+/*text-align: center;*/
+/*letter-spacing: 0.2em;*/
+/*font-family: @headingsfont;*/
+/*z-index: 9999;*/
+/*	  background-color: @bggreen;
+	ul li {
+		display: inline;
+		font-size: 30px;
+		margin-left: 100px;
+		font-family: Young, sans-serif;
+		a {
+			color: @bggreen;
+		
+		}
+	}
+}*/
+/*header#mainHeader {
+	background-color: @bggreen;
+}*/
+/*nav#mainNav .logo {
+			height: 50px;
+			width: 50px;
+			background-image: url('../images/logos/logo.png');
+			z-index: 9999;
+}*/
+/*header#mainHeader {
+	background-image: url('../images/backgrounds/jarBg.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	opacity: 0.9;*/
+/*	img {
+		margin-left: 20px;
+		margin-top: 5px;
+	}*/
+/*}*/
+/*header#mainHeader{
+  background-image: url('../images/backgrounds/jarBg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}*/
+/***********************************************************/
 section#left {
   display: inline-block;
-  width: 30%;
-  margin: 0 1.65%;
+  width: 40%;
+  margin: 0 2.2%;
   float: left;
-  margin-top: 300px;
+  margin-top: 380px;
+  color: white;
 }
 section#treeDonate img {
   float: left;
   display: inline-block;
-  width: 100%;
-  margin: 0 5.5%;
+  width: -60%;
+  margin: 0 -3.3%;
   height: 200px;
   width: 200px;
-  margin-top: 300px;
+  margin-top: 360px;
 }
 section#right {
   float: left;
   display: inline-block;
-  width: 30%;
-  margin: 0 1.65%;
+  width: 40%;
+  margin: 0 2.2%;
   float: right;
-  margin-top: 300px;
+  margin-top: 380px;
+  color: white;
 }
 .red {
   color: #6d0202;
   font-family: 'Champagne & Limousines', sans-serif;
+  font-size: 40px;
+  margin-left: 130px;
+}
+section#aboutUs {
+  font-size: 18px;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  margin: 0 2.75%;
+  color: white;
+}
+aside#donors {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin: 0 2.2%;
+}
+aside#donors ul li {
+  /*width: 400px;*/
 }
 /*************CONTACT*************/
 /**************/

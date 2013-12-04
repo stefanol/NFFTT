@@ -9,31 +9,40 @@
 /******GLOBAL STYLES*******/
 
 body {
-  background-color: @red;
+  background-color: @bgteal;
 }
 
-
-header#mainHeader {
-        background-color: @bggreen;
-        img {
-                margin-left: 20px;
-                margin-top: 5px;
-        }
+#contain {
+	background-image: url('../images/backgrounds/background1.jpg');
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	height: 580px;
 }
 
 nav#mainNav {
-        display: inline-block;
-        ul li {
-                display: inline;
-                font-size: 30px;
-                margin-left: 100px;
-                font-family: Young, sans-serif;
-                a {
-                        color: @grassgreen;
-                        
-                }
-        }
+    display: inline-block;
+	ul li {
+	    display: inline;
+	    font-size: 30px;
+	    margin-left: 100px;
+	    font-family: Young, sans-serif;
+	    a {
+	        color: @grassgreen;
+	            
+	    }
+	}
 }
+
+header#mainHeader {
+    background-color: @bggreen;
+    img {
+            margin-left: 20px;
+            margin-top: 5px;
+    }
+}
+
+
 
 /******DO NOT DELETE USE CODE FOR PICTURE BACKGROUND WORK IN PROGRESS*****/
 
@@ -95,25 +104,27 @@ nav#mainNav {
 
 
 section#left {
-	.widthfloat(30%);
+	.widthfloat(40%);
 	float: left;
 	margin-top: 300px;
+	color: white;
 	#mission {
 		
 	}
 }
 
 section#treeDonate img {
-	.widthfloat(100%);
+	.widthfloat(-60%);
 	 height: 200px;
 	 width: 200px;
 	 margin-top: 300px;
 }
 
 section#right {
-	.widthfloat(30%);
+	.widthfloat(40%);
 	float: right;
 	margin-top: 300px;
+	color: white;
 	#totalPicked {
 	}
 }
@@ -121,7 +132,10 @@ section#right {
 .red {
 	color: @fontred;
 	font-family: 'Champagne & Limousines', sans-serif;
+	text-align: center;
 }
+
+
 
 
 /*************CONTACT*************/

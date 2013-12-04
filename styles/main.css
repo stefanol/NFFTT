@@ -20,9 +20,7 @@ h2,
 h3,
 h4 {
   font-family: Ariel;
-  font-weight: 700;
   line-height: 1em;
-  text-transform: uppercase;
 }
 h1 {
   font-size: 2.3em;
@@ -159,15 +157,55 @@ section#aboutUs {
   width: 50%;
   margin: 0 2.75%;
   color: white;
+  margin-top: 20px;
 }
 aside#donors {
   float: left;
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
+  margin-top: 20px;
 }
 aside#donors ul li {
-  /*width: 400px;*/
+  display: inline;
+  width: 200px;
+  padding: 5px;
+}
+section#whatWeDo {
+  font-size: 18px;
+  /*background-color: blue;*/
+  /*width: 70%;*/
+  display: inline-block;
+  width: 50%;
+  margin: 0 2.75%;
+  float: left;
+}
+section#ourTeam {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  margin: 0 2.75%;
+}
+section#ourTeam ul li {
+  line-height: 40px;
+}
+span#position {
+  font-size: 20px;
+}
+span#name {
+  font-size: 16px;
+}
+section#history {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin: 0 2.2%;
+}
+section#getInvolved {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin: 0 2.2%;
 }
 section#blog {
   width: 70%;

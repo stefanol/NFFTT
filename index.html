@@ -13,6 +13,7 @@
     <!-- Stylesheets -->
   <link rel="stylesheet" href="styles/reset.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/dropdown-nav.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="styles/print.css" type="text/css" media="print" >
 
 </head>
@@ -24,9 +25,15 @@
                 
         <a href="index.html"><img src="images/logos/logo.png" height="70" width="130"></a>
         <nav id="mainNav">
-	        <ul>
+	        <ul class="dropdown">
 		        <li><a href="#">Home</a></li>
-		        <li><a href="#">About Us</a></li>
+		        <li>
+		        	<a href="#">About Us</a>
+		        	<ul>
+		        		<li><a href="#">What We Do</a></li>
+		        		<li><a href="#">Our Company</a></li>
+		        	</ul>
+		        </li>
 		        <li><a href="#">Get Involved</a></li>
 		        <li><a href="#">Blog</a></li>
 	        </ul>
@@ -260,4 +267,9 @@
 	</footer>
 	
 </body>
+
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>	
+	<script type="text/javascript" language="javascript" src="js/hoverIntent.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.dropdown.js"></script>
+
 </html>

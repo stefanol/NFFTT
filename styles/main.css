@@ -158,6 +158,7 @@ section#aboutUs {
   margin: 0 2.75%;
   color: white;
   margin-top: 20px;
+  clear: both;
 }
 aside#donors {
   float: left;
@@ -207,6 +208,8 @@ section#history {
 
 }
 section#getInvolved {
+  width: 40%;
+  margin: 0 2.2%;
   background: #b5e3af;
   font-family: 'Tekton Pro', sans-serif;
   float: left;
@@ -230,13 +233,24 @@ section#blog {
   clear: both;
 }
 section#blog {
-  width: 70%;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0 5.5%;
+  clear: both;
+  margin-right: 50px;
 }
 section#blog img {
   float: left;
 }
-section#blog h1 {
-  float: right;
+#post1 {
+  width: 80%;
+}
+p#post {
+  margin-top: -10px;
+}
+#post2 {
+  width: 80%;
 }
 /*************CONTACT*************/
 /**************/

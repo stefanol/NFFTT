@@ -53,6 +53,10 @@ body {
 nav#mainNav {
   display: inline-block;
   position: fixed;
+<<<<<<< HEAD
+=======
+  background: #b5e3af;
+>>>>>>> 64a596b99f4527f30caebd412fac2704bf6ad091
 }
 nav#mainNav ul li {
   display: inline;
@@ -67,6 +71,8 @@ header#mainHeader {
   width: 100%;
   position: fixed;
   background-color: #b5e3af;
+  width: 100%;
+  position: fixed;
 }
 header#mainHeader img {
   margin-left: 20px;
@@ -146,6 +152,23 @@ section#right {
   margin-top: 380px;
   color: white;
 }
+.topBtn {
+  background: #b5e3af;
+  color: #828282;
+  border: 2px solid #eee;
+  height: 28px;
+  width: 100px;
+  margin: -30px 0 0 150px;
+  overflow: hidden;
+  display: block;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+.topBtn:hover {
+  background: #a6822d;
+  color: white;
+  cursor: pointer;
+}
 .red {
   color: #6d0202;
   font-family: 'Champagne & Limousines', sans-serif;
@@ -161,6 +184,7 @@ section#aboutUs {
   color: white;
   margin-top: 20px;
   clear: both;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
 }
 aside#donors {
   float: left;
@@ -177,12 +201,15 @@ aside#donors ul li {
 section#whatWeDo {
   font-size: 18px;
   color: white;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
   /*width: 70%;*/
+
   float: left;
   display: inline-block;
   width: 80%;
   margin: 0 4.4%;
   /*float: left;*/
+
 }
 section#ourTeam {
   float: left;
@@ -204,36 +231,39 @@ section#history {
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
   /*clear: both;*/
+
 }
 section#getInvolved {
   width: 40%;
   margin: 0 2.2%;
+  font-size: 20px;
   background: #b5e3af;
-  /*width: 300px;*/
+  font-family: 'Tekton Pro', sans-serif;
   float: left;
   display: inline-block;
   width: 50%;
   margin: 0 2.75%;
   /*width: 300px;*/
+
 }
 section.formgroup {
   float: left;
   width: 40%;
   margin: 0 2.2%;
   /*float: right;*/
+
   display: inline-block;
   background: #b5e3af;
   color: #000;
-}
-section#blog {
-  clear: both;
 }
 section#blog {
   float: left;
   display: inline-block;
   width: 100%;
   margin: 0 5.5%;
+  font-family: 'Tekton Pro', Helvetica, sans-serif;
   clear: both;
   margin-right: 50px;
 }
@@ -248,6 +278,11 @@ p#post {
 }
 #post2 {
   width: 80%;
+}
+footer.bottomFooter {
+  background-color: #b5e3af;
+  clear: both;
+  text-align: center;
 }
 /*************CONTACT*************/
 /**************/

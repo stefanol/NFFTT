@@ -22,6 +22,10 @@ body {
 nav#mainNav {
     display: inline-block;
     position: fixed;
+<<<<<<< HEAD
+=======
+    background: @bggreen;
+>>>>>>> 64a596b99f4527f30caebd412fac2704bf6ad091
 	ul li {
 	    display: inline;
 	    font-size: 30px;
@@ -38,9 +42,11 @@ header#mainHeader {
 	width: 100%;
 	position:fixed;
     background-color: @bggreen;
+    width: 100%;
+    position: fixed;
     img {
-            margin-left: 20px;
-            margin-top: 5px;
+    	margin-left: 20px;
+    	margin-top: 5px;
     }
 }
 
@@ -131,6 +137,26 @@ section#right {
 	}
 }
 
+.topBtn {
+	background: @bggreen;
+	color: @grey;
+	border: 2px solid #eee;
+	height: 28px;
+	width: 100px;
+	margin: -30px 0 0 150px;
+	overflow: hidden;
+	display: block;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+.topBtn:hover {
+	background: @brown;
+	color: white;
+	cursor: pointer;
+}
+
+
 .red {
 	color: @fontred;
 	font-family: 'Champagne & Limousines', sans-serif;
@@ -143,7 +169,8 @@ section#aboutUs {
 	.widthfloat(50%);
 	color: white;
 	margin-top: 20px;
-	clear:both;
+	clear: both;
+	font-family: 'Tekton Pro', Helvetica, sans-serif;
 }
 
 aside#donors {
@@ -160,6 +187,7 @@ aside#donors {
 section#whatWeDo {
 	font-size: 18px;
 	color: white;
+	font-family: 'Tekton Pro', Helvetica, sans-serif;
 	/*width: 70%;*/
 	.widthfloat(80%);
 	/*float: left;*/
@@ -182,13 +210,15 @@ span#name {
 
 section#history {
 	.widthfloat(40%);
+	font-family: 'Tekton Pro', Helvetica, sans-serif;
 	/*clear: both;*/
 }
 
 section#getInvolved {
 	.widthfloat(40%);
-
+	font-size: 20px;
 	background: @bggreen;
+	font-family: 'Tekton Pro', sans-serif;
 	/*width: 300px;*/
 	.widthfloat(50%);
 	/*width: 300px;*/
@@ -204,14 +234,9 @@ section.formgroup {
 	color: #000;
 }
 
-
-
-section#blog {
-	clear: both;
-}
-
 section#blog {
 	.widthfloat(100%);
+	font-family: 'Tekton Pro', Helvetica, sans-serif;
 	clear:both;
 	margin-right: 50px;
 }
@@ -235,7 +260,9 @@ p#post {
 
 
 footer.bottomFooter {
-
+	background-color: @bggreen;
+	clear: both;
+	text-align: center;
 }
 
 /*************CONTACT*************/

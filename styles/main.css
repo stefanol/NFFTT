@@ -177,10 +177,12 @@ section#whatWeDo {
 
   /*width: 70%;*/
 
-  display: inline-block;
-  width: 50%;
-  margin: 0 2.75%;
   float: left;
+  display: inline-block;
+  width: 80%;
+  margin: 0 4.4%;
+  /*float: left;*/
+
 }
 section#ourTeam {
   float: left;
@@ -202,12 +204,30 @@ section#history {
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
+  /*clear: both;*/
+
 }
 section#getInvolved {
+  background: #b5e3af;
   float: left;
   display: inline-block;
+  width: 50%;
+  margin: 0 2.75%;
+  /*width: 300px;*/
+
+}
+section.formgroup {
+  float: left;
   width: 40%;
   margin: 0 2.2%;
+  /*float: right;*/
+
+  display: inline-block;
+  background: #b5e3af;
+  color: #000;
+}
+section#blog {
+  clear: both;
 }
 /*************CONTACT*************/
 /**************/

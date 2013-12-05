@@ -263,14 +263,11 @@ section#history {
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
-<<<<<<< HEAD
   margin-top: 10px;
   font-family: 'Tekton Pro', Helvetica, sans-serif;
   font-size: 18px;
-=======
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 15px;
->>>>>>> ddf80222000387f10ed0bff67cf58cd5f39ec20d
 }
 section#getInvolved {
   width: 40%;

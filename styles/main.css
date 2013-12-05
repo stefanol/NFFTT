@@ -205,6 +205,9 @@ aside#donors ul li {
   width: 200px;
   padding: 5px;
 }
+aside#donors ul li a:hover {
+  opacity: 0.5;
+}
 #wrapper2 {
   background-image: url('../images/backgrounds/background3.jpg');
   background-size: cover;

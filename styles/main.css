@@ -128,26 +128,29 @@ header#mainHeader img {
 /***********************************************************/
 section#left {
   display: inline-block;
-  width: 40%;
-  margin: 0 2.2%;
+  width: 30%;
+  margin: 0 1.65%;
   float: left;
   margin-top: 430px;
   color: white;
+}
+section#left .topBtn {
+  margin-top: -15px;
 }
 section#treeDonate img {
   float: left;
   display: inline-block;
   width: -60%;
   margin: 0 -3.3%;
-  height: 200px;
-  width: 200px;
-  margin-top: 430px;
+  height: 500px;
+  width: 469px;
+  margin-top: 90px;
 }
 section#right {
   float: left;
   display: inline-block;
-  width: 40%;
-  margin: 0 2.2%;
+  width: 30%;
+  margin: 0 1.65%;
   float: right;
   margin-top: 430px;
   color: white;
@@ -210,6 +213,9 @@ aside#donors ul li {
 }
 aside#donors ul li a:hover {
   opacity: 0.5;
+}
+aside#donors ul li a {
+  margin-top: 10px;
 }
 #wrapper2 {
   background-image: url('../images/backgrounds/background3.jpg');

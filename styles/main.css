@@ -249,14 +249,20 @@ section#ourTeam {
   margin-top: 10px;
 }
 section#ourTeam ul li {
-  line-height: 40px;
+  line-height: 35px;
 }
-span#position {
-  font-size: 22px;
+span.position {
+  font-size: 20px;
   color: #a6822d;
+  font-family: Helvetica;
 }
-span#name {
+span.name {
   font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+.steerCom {
+  margin-left: 180px;
 }
 section#history {
   float: left;
@@ -269,6 +275,9 @@ section#history {
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 15px;
 }
+section#history p {
+  line-height: 30px;
+}
 #wrapper4 {
   background-image: url('../images/backgrounds/background5.jpg');
   background-size: cover;
@@ -276,16 +285,16 @@ section#history {
   height: 580px;
 }
 section#getInvolved {
-  width: 40%;
-  margin: 0 2.2%;
-  font-size: 22px;
+  /*	.widthfloat(30%);*/
+
+  font-size: 24px;
   font-family: 'Young', sans-serif;
   color: #fff;
   font-size: 15px;
   float: left;
   display: inline-block;
-  width: 50%;
-  margin: 0 2.75%;
+  width: 40%;
+  margin: 0 2.2%;
 }
 section#getInvolved .info {
   text-align: center;
@@ -295,14 +304,15 @@ section#getInvolved .info {
   margin-top: 30px;
 }
 section.formgroup {
-  font-size: 20px;
+  font-size: 18px;
   float: left;
-  width: 40%;
-  margin: 0 2.2%;
+  width: 50%;
+  margin: 0 2.75%;
   display: inline-block;
   color: #000;
-  line-height: 50px;
+  line-height: 45px;
   margin-top: 10px;
+  padding-left: 260px;
 }
 section.formgroup h1 {
   color: white;

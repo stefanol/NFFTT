@@ -141,7 +141,7 @@ section#treeDonate img {
   margin: 0 -3.3%;
   height: 200px;
   width: 200px;
-  margin-top: 430px;
+  margin-top: 420px;
 }
 section#right {
   float: left;
@@ -323,6 +323,9 @@ section.formgroup h1 {
 }
 section.formgroup label {
   color: white;
+}
+span.radioColor {
+  color: #828282;
 }
 section#blog {
   float: left;

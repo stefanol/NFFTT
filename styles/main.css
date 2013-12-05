@@ -187,6 +187,18 @@ section#right {
   background-position: center;
   height: 580px;
 }
+#wrapper3 {
+  background-image: url('../images/backgrounds/background7.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+}
+#wrapper4 {
+  background-image: url('../images/backgrounds/background5.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+}
 section#aboutUs {
   font-size: 18px;
   float: left;
@@ -251,16 +263,22 @@ section#history {
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
+<<<<<<< HEAD
   margin-top: 10px;
   font-family: 'Tekton Pro', Helvetica, sans-serif;
   font-size: 18px;
+=======
+  font-family: 'Young', Helvetica, sans-serif;
+  font-size: 15px;
+>>>>>>> ddf80222000387f10ed0bff67cf58cd5f39ec20d
 }
 section#getInvolved {
   width: 40%;
   margin: 0 2.2%;
   font-size: 22px;
-  background: #3d3d3d;
-  font-family: 'Tekton Pro', sans-serif;
+  font-family: 'Young', sans-serif;
+  color: #fff;
+  font-size: 15px;
   float: left;
   display: inline-block;
   width: 50%;
@@ -270,13 +288,15 @@ section#getInvolved .info {
   text-align: center;
   padding-bottom: 30px;
 }
+#mailing {
+  margin-top: 30px;
+}
 section.formgroup {
   font-size: 20px;
   float: left;
   width: 40%;
   margin: 0 2.2%;
   display: inline-block;
-  background: #3d3d3d;
   color: #000;
   line-height: 50px;
 }

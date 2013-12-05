@@ -235,10 +235,11 @@ section#ourTeam ul li {
   line-height: 40px;
 }
 span#position {
-  font-size: 20px;
+  font-size: 22px;
+  color: #a6822d;
 }
 span#name {
-  font-size: 16px;
+  font-size: 18px;
 }
 section#history {
   float: left;
@@ -251,24 +252,27 @@ section#history {
 section#getInvolved {
   width: 40%;
   margin: 0 2.2%;
-  font-size: 20px;
+  font-size: 22px;
   background: #3d3d3d;
   font-family: 'Tekton Pro', sans-serif;
-  /*width: 300px;*/
   float: left;
   display: inline-block;
   width: 50%;
   margin: 0 2.75%;
-  /*width: 300px;*/
+}
+section#getInvolved .info {
+  text-align: center;
+  padding-bottom: 30px;
 }
 section.formgroup {
+  font-size: 20px;
   float: left;
   width: 40%;
   margin: 0 2.2%;
-  /*float: right;*/
   display: inline-block;
   background: #3d3d3d;
   color: #000;
+  line-height: 50px;
 }
 section#blog {
   float: left;

@@ -223,6 +223,9 @@ aside#donors ul li {
   width: 200px;
   padding: 5px;
 }
+aside#donors ul li a:hover {
+  opacity: 0.5;
+}
 section#whatWeDo {
   font-size: 24px;
   color: white;

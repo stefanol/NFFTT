@@ -53,7 +53,7 @@ body {
 nav#mainNav {
   display: inline-block;
   position: fixed;
-  background: #485050;
+  background: #3d3d3d;
 }
 nav#mainNav ul li {
   display: inline;
@@ -69,7 +69,7 @@ nav#mainNav ul li a {
   height: 20px;
 }
 header#mainHeader {
-  background-color: #485050;
+  background-color: #3d3d3d;
   width: 100%;
   position: fixed;
 }
@@ -125,10 +125,6 @@ header#mainHeader img {
   opacity: 0.9;
 }*/
 /***********************************************************/
-#wrapper1 {
-  background-color: #727171;
-  width: 100%;
-}
 section#left {
   display: inline-block;
   width: 40%;
@@ -156,7 +152,7 @@ section#right {
   color: white;
 }
 .topBtn {
-  background: #485050;
+  background: #3d3d3d;
   color: #828282;
   border: 2px solid #eee;
   height: 28px;
@@ -179,9 +175,10 @@ section#right {
   margin-left: 130px;
 }
 #wrapper1 {
-  background-color: #727171;
-  width: 100%;
-  height: 578px;
+  background-image: url('../images/backgrounds/background6.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 580px;
 }
 #wrapper2 {
   background-image: url('../images/backgrounds/background3.jpg');
@@ -198,8 +195,8 @@ section#aboutUs {
   color: white;
   margin-top: 20px;
   clear: both;
-  font-family: 'Tekton Pro', Helvetica, sans-serif;
-  background-color: #727171;
+  font-family: 'Young', Helvetica, sans-serif;
+  font-size: 17px;
 }
 aside#donors {
   float: left;
@@ -216,7 +213,8 @@ aside#donors ul li {
 section#whatWeDo {
   font-size: 24px;
   color: white;
-  font-family: 'Tekton Pro', Helvetica, sans-serif;
+  font-family: 'Young', Helvetica, sans-serif;
+  font-size: 20px;
   display: inline-block;
   width: 60%;
   margin: 0 3.3%;
@@ -254,7 +252,7 @@ section#getInvolved {
   width: 40%;
   margin: 0 2.2%;
   font-size: 20px;
-  background: #485050;
+  background: #3d3d3d;
   font-family: 'Tekton Pro', sans-serif;
   /*width: 300px;*/
   float: left;
@@ -269,7 +267,7 @@ section.formgroup {
   margin: 0 2.2%;
   /*float: right;*/
   display: inline-block;
-  background: #485050;
+  background: #3d3d3d;
   color: #000;
 }
 section#blog {
@@ -294,7 +292,7 @@ p#post {
   width: 80%;
 }
 footer.bottomFooter {
-  background-color: #485050;
+  background-color: #3d3d3d;
   clear: both;
   text-align: center;
 }

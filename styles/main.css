@@ -196,6 +196,9 @@ section#aboutUs {
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 17px;
 }
+section#aboutUs p {
+  line-height: 26px;
+}
 aside#donors {
   float: left;
   display: inline-block;
@@ -207,6 +210,7 @@ aside#donors ul li {
   display: inline;
   width: 200px;
   padding: 5px;
+  line-height: 35px;
 }
 aside#donors ul li a:hover {
   opacity: 0.5;

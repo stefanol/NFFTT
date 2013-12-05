@@ -181,24 +181,6 @@ section#right {
   background-position: center;
   height: 580px;
 }
-#wrapper2 {
-  background-image: url('../images/backgrounds/background3.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 580px;
-}
-#wrapper3 {
-  background-image: url('../images/backgrounds/background7.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 560px;
-}
-#wrapper4 {
-  background-image: url('../images/backgrounds/background5.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 560px;
-}
 section#aboutUs {
   font-size: 18px;
   float: left;
@@ -223,6 +205,12 @@ aside#donors ul li {
   width: 200px;
   padding: 5px;
 }
+#wrapper2 {
+  background-image: url('../images/backgrounds/background3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+}
 section#whatWeDo {
   font-size: 24px;
   color: white;
@@ -240,6 +228,12 @@ section#whatWeDo p {
 #wardImg img {
   margin: 60px 0 0 100px;
   padding-bottom: 50px;
+}
+#wrapper3 {
+  background-image: url('../images/backgrounds/background7.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 580px;
 }
 section#ourTeam {
   float: left;
@@ -269,6 +263,12 @@ section#history {
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 15px;
 }
+#wrapper4 {
+  background-image: url('../images/backgrounds/background5.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+}
 section#getInvolved {
   width: 40%;
   margin: 0 2.2%;
@@ -296,6 +296,13 @@ section.formgroup {
   display: inline-block;
   color: #000;
   line-height: 50px;
+  margin-top: 10px;
+}
+section.formgroup h1 {
+  color: white;
+}
+section.formgroup label {
+  color: white;
 }
 section#blog {
   float: left;

@@ -48,7 +48,7 @@ body {
   background-image: url('../images/backgrounds/background1.jpg');
   background-size: cover;
   background-position: center;
-  height: 580px;
+  height: 650px;
 }
 nav#mainNav {
   display: inline-block;
@@ -60,17 +60,18 @@ nav#mainNav ul li {
   font-size: 30px;
   margin-left: 100px;
   font-family: Young, sans-serif;
+  margin: 20px 0 0 80px;
 }
 nav#mainNav ul li a {
   color: #53a08e;
 }
 #paypalBtn {
-  margin: 0 0 20px 970px;
+  margin: 15px 0 20px 920px;
   height: 20px;
 }
 header#mainHeader {
-  background-color: #3d3d3d;
   width: 100%;
+  background-color: #3d3d3d;
   position: fixed;
 }
 header#mainHeader img {
@@ -130,7 +131,7 @@ section#left {
   width: 40%;
   margin: 0 2.2%;
   float: left;
-  margin-top: 380px;
+  margin-top: 450px;
   color: white;
 }
 section#treeDonate img {
@@ -140,7 +141,7 @@ section#treeDonate img {
   margin: 0 -3.3%;
   height: 200px;
   width: 200px;
-  margin-top: 360px;
+  margin-top: 430px;
 }
 section#right {
   float: left;
@@ -148,7 +149,7 @@ section#right {
   width: 40%;
   margin: 0 2.2%;
   float: right;
-  margin-top: 380px;
+  margin-top: 450px;
   color: white;
 }
 .topBtn {
@@ -221,6 +222,9 @@ section#whatWeDo {
   float: left;
   margin-top: 30px;
 }
+section#whatWeDo p {
+  line-height: 45px;
+}
 #wardImg img {
   margin: 60px 0 0 100px;
   padding-bottom: 50px;
@@ -230,6 +234,7 @@ section#ourTeam {
   display: inline-block;
   width: 50%;
   margin: 0 2.75%;
+  margin-top: 10px;
 }
 section#ourTeam ul li {
   line-height: 40px;
@@ -246,6 +251,7 @@ section#history {
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
+  margin-top: 10px;
   font-family: 'Tekton Pro', Helvetica, sans-serif;
   font-size: 18px;
 }

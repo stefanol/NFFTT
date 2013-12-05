@@ -19,7 +19,7 @@ ul.dropdown li.hover a              { color: black; }
 	LEVEL TWO
 */
 ul.dropdown ul 						{ width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; }
-ul.dropdown ul li 					{ font-weight: normal; background: #3D3D3D; color: #000; 
+ul.dropdown ul li 					{ font-weight: normal; background: #444444; color: #000; 
 									  float: none; padding-top: 7px; }
 									  
                                     /* IE 6 & 7 Needs Inline Block */

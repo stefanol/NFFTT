@@ -113,7 +113,7 @@ header#mainHeader {
 section#left {
 	.widthfloat(40%);
 	float: left;
-	margin-top: 450px;
+	margin-top: 430px;
 	color: white;
 	#mission {
 	}
@@ -129,27 +129,31 @@ section#treeDonate img {
 section#right {
 	.widthfloat(40%);
 	float: right;
-	margin-top: 450px;
+	margin-top: 430px;
 	color: white;
 	#totalPicked {
 	}
 }
 
 .topBtn {
-	background: @bggreen;
-	color: @grey;
-	border: 2px solid #eee;
-	height: 28px;
-	width: 100px;
-	margin: -30px 0 0 150px;
-	overflow: hidden;
 	display: block;
-	font-family: Helvetica;
-	font-size: 16px;
+    font-size: 1.1em;
+    font-weight: bold;
+    
+    margin: 20px auto;
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888, #555);
+    background: linear-gradient(#888, #555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
 }
 
 .topBtn:hover {
-	background: @brown;
+	background: @bggreen;
 	color: white;
 	cursor: pointer;
 }

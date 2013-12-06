@@ -78,53 +78,6 @@ header#mainHeader img {
   margin-left: 20px;
   margin-top: 5px;
 }
-/******DO NOT DELETE USE CODE FOR PICTURE BACKGROUND WORK IN PROGRESS*****/
-/*nav#mainNav {*/
-/*display: inline-block;*/
-/*@navbg: lighten(@grassgreen, 10%);*/
-/*background: fadeout(@navbg, 10%);*/
-/*position: fixed;*/
-/*text-align: center;*/
-/*letter-spacing: 0.2em;*/
-/*font-family: @headingsfont;*/
-/*z-index: 9999;*/
-/*	  background-color: @bggreen;
-	ul li {
-		display: inline;
-		font-size: 30px;
-		margin-left: 100px;
-		font-family: Young, sans-serif;
-		a {
-			color: @bggreen;
-		
-		}
-	}
-}*/
-/*header#mainHeader {
-	background-color: @bggreen;
-}*/
-/*nav#mainNav .logo {
-			height: 50px;
-			width: 50px;
-			background-image: url('../images/logos/logo.png');
-			z-index: 9999;
-}*/
-/*header#mainHeader {
-	background-image: url('../images/backgrounds/jarBg.jpg');
-  	background-size: cover;
-  	background-position: center;
-  	opacity: 0.9;*/
-/*	img {
-		margin-left: 20px;
-		margin-top: 5px;
-	}*/
-/*}*/
-/*header#mainHeader{
-  background-image: url('../images/backgrounds/jarBg.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
-}*/
 /***********************************************************/
 section#left {
   display: inline-block;
@@ -185,7 +138,7 @@ section#right {
   background-image: url('../images/backgrounds/background6.jpg');
   background-size: cover;
   background-position: center;
-  height: 580px;
+  height: 680px;
 }
 section#aboutUs {
   font-size: 18px;

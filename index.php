@@ -28,14 +28,14 @@
 	        <ul class="dropdown">
 		        <li><a href="#">Home</a></li>
 		        <li>
-		        	<a href="#">About Us</a>
+		        	<a href="#aboutUs">About Us</a>
 		        	<ul>
-		        		<li><a href="#">What We Do</a></li>
-		        		<li><a href="#">Our Company</a></li>
+		        		<li><a href="#whatWeDo">What We Do</a></li>
+		        		<li><a href="#history">Our Company</a></li>
 		        	</ul>
 		        </li>
-		        <li><a href="#">Get Involved</a></li>
-		        <li><a href="#">Blog</a></li>
+		        <li><a href="#getInvolved">Get Involved</a></li>
+		        <li><a href="#blog">Blog</a></li>
 	        </ul>
 	        <form id="paypalBtn" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 			<input type="hidden" name="cmd" value="_donations">
@@ -206,26 +206,26 @@
 
 	<section class="formgroup">
 		<h1>Donate A Tree</h1>
-    	<form>
+    	<form parsley-validate>
 
       		<div class="formgroup">
         		<label>Full Name</label>
-        		<input type="text" name="fullname" />
+        		<input type="text" name="fullname" required />
       		</div>
 
       		<div class="formgroup">
         		<label>Email</label>
-        		<input type="text" name="email" />
+        		<input type="text" name="email" required />
       		</div>
 
       		<div class="formgroup">
         		<label>Phone Number</label>
-        		<input type="text" name="phonenumber" />
+        		<input type="text" name="phonenumber" required />
       		</div>
 
       		<div class="formgroup">
         		<label>Tree Address</label>
-        		<input type="text" name="treeaddress" />
+        		<input type="text" name="treeaddress" required />
       		</div>
 
       		<div class="formgroup">
@@ -304,7 +304,121 @@
  
    </section>
  
+ <form action="thankyou.php" method="post">
 
+  <form action="thankyou.php" method="post">
+
+          <div class="formgroup">
+            <label>First Name</label>
+            <input type="text" name="firstname" />
+          </div>
+
+          <div class="formgroup">
+            <label>Last Name</label>
+            <input type="text" name="lastname" />
+          </div>
+
+          <div class="formgroup">
+            <label>Email Address</label>
+            <input type="text" name="email" />
+          </div>
+
+          <div class="formgroup">
+            <label>Address</label>
+            <input type="text" name="address" />
+          </div>
+
+          <div class="formgroup">
+            <label>City</label>
+            <input type="text" name="city" />
+          </div>
+
+          <div class="formgroup">
+            <label>Province</label>
+            <input type="text" name="province" />
+          </div>
+
+          <div class="formgroup">
+            <label>Country</label>
+            <input type="text" name="country" />
+          </div>
+
+          <div class="formgroup">
+            <label>Postal Code</label>
+            <input type="text" name="postalcode" />
+          </div>
+
+          <div class="formgroup">
+            <label>Phone Number</label>
+            <input type="text" name="phone" />
+          </div>
+
+          <div class="formgroup">
+            <label>Comments</label>
+            <textarea name="comments"></textarea>
+          </div>
+
+          <div class="formgroup">
+            <input type="submit" class="btn">
+          </div>
+
+        </form>
+
+<!--           <div class="formgroup">
+            <label>First Name</label>
+            <input type="text" name="firstname" />
+          </div>
+
+          <div class="formgroup">
+            <label>Last Name</label>
+            <input type="text" name="lastname" />
+          </div>
+
+          <div class="formgroup">
+            <label>Email Address</label>
+            <input type="text" name="email" />
+          </div>
+
+          <div class="formgroup">
+            <label>Address</label>
+            <input type="text" name="address" />
+          </div>
+
+          <div class="formgroup">
+            <label>City</label>
+            <input type="text" name="city" />
+          </div>
+
+          <div class="formgroup">
+            <label>Province</label>
+            <input type="text" name="province" />
+          </div>
+
+          <div class="formgroup">
+            <label>Country</label>
+            <input type="text" name="country" />
+          </div>
+
+          <div class="formgroup">
+            <label>Postal Code</label>
+            <input type="text" name="postalcode" />
+          </div>
+
+          <div class="formgroup">
+            <label>Phone Number</label>
+            <input type="text" name="phone" />
+          </div>
+
+          <div class="formgroup">
+            <label>Comments</label>
+            <textarea name="comments"></textarea>
+          </div>
+
+          <div class="formgroup">
+            <input type="submit" class="btn">
+          </div>
+
+        </form> -->
 	
 
 	<footer class="bottomFooter">
@@ -313,8 +427,8 @@
 	
 </body>
 
-	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>	
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 	<script type="text/javascript" language="javascript" src="js/hoverIntent.js"></script>
 	<script type="text/javascript" language="javascript" src="js/jquery.dropdown.js"></script>
-
+	<script type="text/javascript" src="js/parsley.js"></script>
 </html>

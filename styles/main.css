@@ -163,7 +163,7 @@ section#aboutUs {
   font-size: 17px;
 }
 section#aboutUs p {
-  line-height: 26px;
+  line-height: 30px;
 }
 aside#donors {
   float: left;
@@ -274,6 +274,9 @@ section#gallery h1 {
 section#gallery ul li a:hover {
   opacity: 0.5;
 }
+section#gallery img {
+  border: 4px solid white;
+}
 /**********************************************************/
 /********************Get Involved Page*********************/
 #getInvolvedWrap {
@@ -296,7 +299,23 @@ section#getInvolved {
 }
 section#getInvolved .info {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+}
+section#getInvolved h1 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+section#getInvolved #emailUs {
+  text-align: center;
+  font-size: 18px;
+}
+section#getInvolved #callUs {
+  text-align: center;
+  font-size: 18px;
+}
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
 }
 #mailing {
   margin-top: 30px;

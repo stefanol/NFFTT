@@ -44,7 +44,7 @@ h4 {
 body {
   background-color: #5aa89b;
 }
-#contain {
+#containMain {
   background-image: url('../images/backgrounds/background1.jpg');
   background-size: cover;
   background-position: center;
@@ -134,7 +134,7 @@ section#right {
   font-size: 40px;
   margin-left: 130px;
 }
-#wrapper1 {
+#aboutUsWrap {
   background-image: url('../images/backgrounds/background6.jpg');
   background-size: cover;
   background-position: center;
@@ -174,7 +174,7 @@ aside#donors ul li a:hover {
 aside#donors ul li a {
   margin-top: 10px;
 }
-#wrapper2 {
+#ourJobWrap {
   background-image: url('../images/backgrounds/background3.jpg');
   background-size: cover;
   background-position: center;
@@ -198,7 +198,7 @@ section#whatWeDo p {
   margin: 60px 0 0 100px;
   padding-bottom: 50px;
 }
-#wrapper3 {
+#ourTeamWrap {
   background-image: url('../images/backgrounds/background7.jpg');
   background-size: cover;
   background-position: center;
@@ -241,7 +241,7 @@ section#history {
 section#history p {
   line-height: 30px;
 }
-#wrapper4 {
+#getInvolvedWrap {
   background-image: url('../images/backgrounds/background5.jpg');
   background-size: cover;
   background-position: center;

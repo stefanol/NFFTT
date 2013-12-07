@@ -86,9 +86,13 @@ section#left {
   float: left;
   margin-top: 430px;
   color: white;
+  text-align: center;
 }
 section#left .topBtn {
   margin-top: -15px;
+}
+section#left h1 {
+  text-align: center;
 }
 section#treeDonate img {
   float: left;
@@ -105,8 +109,14 @@ section#right {
   width: 30%;
   margin: 0 1.65%;
   float: right;
-  margin-top: 430px;
+  margin-top: 420px;
   color: white;
+}
+section#right #totalPicked {
+  text-align: center;
+}
+section#right h1 {
+  text-align: center;
 }
 .topBtn {
   display: block;
@@ -132,7 +142,10 @@ section#right {
   color: #447f75;
   font-family: 'Champagne & Limousines', sans-serif;
   font-size: 40px;
-  margin-left: 130px;
+  /*margin-left: 130px;*/
+
+  /*text-align: center;*/
+
 }
 #aboutUsWrap {
   background-image: url('../images/backgrounds/background6.jpg');
@@ -165,14 +178,18 @@ aside#donors {
 aside#donors ul li {
   display: inline;
   width: 200px;
-  padding: 5px;
-  line-height: 35px;
+  padding: 20px;
+  line-height: 55px;
 }
 aside#donors ul li a:hover {
   opacity: 0.5;
 }
 aside#donors ul li a {
   margin-top: 10px;
+}
+aside#donors h1 {
+  text-align: center;
+  color: white;
 }
 #ourJobWrap {
   background-image: url('../images/backgrounds/background3.jpg');
@@ -241,6 +258,21 @@ section#history {
 section#history p {
   line-height: 30px;
 }
+section#gallery ul li {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section#gallery h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+section#gallery ul li a:hover {
+  opacity: 0.5;
+}
 #getInvolvedWrap {
   background-image: url('../images/backgrounds/background5.jpg');
   background-size: cover;
@@ -273,7 +305,7 @@ section.formgroup {
   margin: 0 2.75%;
   display: inline-block;
   color: #000;
-  line-height: 45px;
+  line-height: 37px;
   margin-top: 10px;
   padding-left: 260px;
 }

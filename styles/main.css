@@ -53,20 +53,19 @@ body {
 nav#mainNav {
   display: inline-block;
   position: fixed;
-  background: #3d3d3d;
 }
 nav#mainNav ul li {
   display: inline;
-  font-size: 30px;
-  margin-left: 100px;
+  font-size: 25px;
   font-family: Young, sans-serif;
-  margin: 20px 0 0 80px;
+  margin: 20px 0 0 50px;
+  padding-left: 10px;
 }
 nav#mainNav ul li a {
   color: #00a652;
 }
 #paypalBtn {
-  margin: 15px 0 20px 920px;
+  margin: 15px 0 20px 950px;
   height: 20px;
 }
 header#mainHeader {

@@ -142,10 +142,6 @@ section#right h1 {
   color: #447f75;
   font-family: 'Champagne & Limousines', sans-serif;
   font-size: 40px;
-  /*margin-left: 130px;*/
-
-  /*text-align: center;*/
-
 }
 /*********************About Page***************************/
 #aboutUsWrap {
@@ -260,6 +256,7 @@ section#history {
 }
 section#history p {
   line-height: 30px;
+  color: white;
 }
 /***********************Gallery****************************/
 section#gallery ul li {
@@ -351,7 +348,9 @@ p#post {
 footer.bottomFooter {
   background-color: #3d3d3d;
   clear: both;
+  color: #00a652;
   text-align: center;
+  padding: 10px 0 10px 0;
 }
 /*********MEDIA QUERIES*********/
 /********HOME PAGE********/

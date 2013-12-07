@@ -135,11 +135,11 @@ section#right h1 {
 }
 .topBtn:hover {
   background: #3d3d3d;
-  color: white;
+  color: #00a652;
   cursor: pointer;
 }
-.red {
-  color: #447f75;
+.emphasis {
+  color: #00a652;
   font-family: 'Champagne & Limousines', sans-serif;
   font-size: 40px;
 }
@@ -299,7 +299,7 @@ section#getInvolved {
 }
 section#getInvolved .info {
   text-align: center;
-  padding-bottom: 15px;
+  font-size: 20px;
 }
 section#getInvolved h1 {
   text-align: center;
@@ -338,7 +338,7 @@ section.formgroup label {
   color: white;
 }
 span.radioColor {
-  color: #828282;
+  color: white;
 }
 /**********************************************************/
 /*********************Blog Page****************************/

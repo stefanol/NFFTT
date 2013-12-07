@@ -63,7 +63,7 @@ nav#mainNav ul li {
   margin: 20px 0 0 80px;
 }
 nav#mainNav ul li a {
-  color: #53a08e;
+  color: #00a652;
 }
 #paypalBtn {
   margin: 15px 0 20px 920px;
@@ -79,6 +79,7 @@ header#mainHeader img {
   margin-top: 5px;
 }
 /***********************************************************/
+/*********************Home Page****************************/
 section#left {
   display: inline-block;
   width: 30%;
@@ -147,6 +148,7 @@ section#right h1 {
   /*text-align: center;*/
 
 }
+/*********************About Page***************************/
 #aboutUsWrap {
   background-image: url('../images/backgrounds/background6.jpg');
   background-size: cover;
@@ -215,6 +217,8 @@ section#whatWeDo p {
   margin: 60px 0 0 100px;
   padding-bottom: 50px;
 }
+/*********************************************************/
+/*********************Team Page****************************/
 #ourTeamWrap {
   background-image: url('../images/backgrounds/background7.jpg');
   background-size: cover;
@@ -258,6 +262,7 @@ section#history {
 section#history p {
   line-height: 30px;
 }
+/***********************Gallery****************************/
 section#gallery ul li {
   display: inline-block;
   width: 250px;
@@ -273,6 +278,8 @@ section#gallery h1 {
 section#gallery ul li a:hover {
   opacity: 0.5;
 }
+/**********************************************************/
+/********************Get Involved Page*********************/
 #getInvolvedWrap {
   background-image: url('../images/backgrounds/background5.jpg');
   background-size: cover;
@@ -318,6 +325,8 @@ section.formgroup label {
 span.radioColor {
   color: #828282;
 }
+/**********************************************************/
+/*********************Blog Page****************************/
 section#blog {
   float: left;
   display: inline-block;
@@ -339,16 +348,14 @@ p#post {
 #post2 {
   width: 80%;
 }
+/************************Footer****************************/
 footer.bottomFooter {
   background-color: #3d3d3d;
   clear: both;
   text-align: center;
 }
-/*************CONTACT*************/
-/**************/
 /*********MEDIA QUERIES*********/
 /********HOME PAGE********/
 /*********************/
 /********MENU*********/
 /***********************/
-/*********CONTACT********/

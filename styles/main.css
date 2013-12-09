@@ -287,7 +287,6 @@ section#gallery img {
 }
 section#getInvolved {
   /*	.widthfloat(30%);*/
-
   font-size: 24px;
   font-family: 'Young', sans-serif;
   color: #fff;
@@ -366,13 +365,10 @@ p#post {
 #post2 {
   width: 80%;
 }
-<<<<<<< HEAD
 #post3 {
   width: 80%;
 }
-=======
 /************************Footer****************************/
->>>>>>> 9160db69eb9d18d5a59fa52f5f6e45d5bb28622b
 footer.bottomFooter {
   background-color: #3d3d3d;
   clear: both;
@@ -385,7 +381,4 @@ footer.bottomFooter {
 /*********************/
 /********MENU*********/
 /***********************/
-<<<<<<< HEAD
 /*********BLOG POST********/
-=======
->>>>>>> 9160db69eb9d18d5a59fa52f5f6e45d5bb28622b

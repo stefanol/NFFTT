@@ -337,9 +337,12 @@ section#blog {
   display: inline-block;
   width: 80%;
   margin: 0 4.4%;
-  font-family: 'Tekton Pro', Helvetica, sans-serif;
+  font-family: 'Young', Helvetica, sans-serif;
   clear: both;
   margin-right: 50px;
+}
+section#blog a {
+  color: #53a08e;
 }
 section#blog img {
   float: left;
@@ -351,6 +354,9 @@ p#post {
   margin-top: -10px;
 }
 #post2 {
+  width: 80%;
+}
+#post3 {
   width: 80%;
 }
 footer.bottomFooter {
@@ -365,4 +371,4 @@ footer.bottomFooter {
 /*********************/
 /********MENU*********/
 /***********************/
-/*********CONTACT********/
+/*********BLOG POST********/

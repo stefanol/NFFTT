@@ -44,7 +44,7 @@ h4 {
 body {
   background-color: #5aa89b;
 }
-#contain {
+#containMain {
   background-image: url('../images/backgrounds/background1.jpg');
   background-size: cover;
   background-position: center;
@@ -53,20 +53,19 @@ body {
 nav#mainNav {
   display: inline-block;
   position: fixed;
-  background: #3d3d3d;
 }
 nav#mainNav ul li {
   display: inline;
-  font-size: 30px;
-  margin-left: 100px;
+  font-size: 25px;
   font-family: Young, sans-serif;
-  margin: 20px 0 0 80px;
+  margin: 20px 0 0 50px;
+  padding-left: 10px;
 }
 nav#mainNav ul li a {
-  color: #53a08e;
+  color: #00a652;
 }
 #paypalBtn {
-  margin: 15px 0 20px 920px;
+  margin: 15px 0 20px 950px;
   height: 20px;
 }
 header#mainHeader {
@@ -78,54 +77,8 @@ header#mainHeader img {
   margin-left: 20px;
   margin-top: 5px;
 }
-/******DO NOT DELETE USE CODE FOR PICTURE BACKGROUND WORK IN PROGRESS*****/
-/*nav#mainNav {*/
-/*display: inline-block;*/
-/*@navbg: lighten(@grassgreen, 10%);*/
-/*background: fadeout(@navbg, 10%);*/
-/*position: fixed;*/
-/*text-align: center;*/
-/*letter-spacing: 0.2em;*/
-/*font-family: @headingsfont;*/
-/*z-index: 9999;*/
-/*	  background-color: @bggreen;
-	ul li {
-		display: inline;
-		font-size: 30px;
-		margin-left: 100px;
-		font-family: Young, sans-serif;
-		a {
-			color: @bggreen;
-		
-		}
-	}
-}*/
-/*header#mainHeader {
-	background-color: @bggreen;
-}*/
-/*nav#mainNav .logo {
-			height: 50px;
-			width: 50px;
-			background-image: url('../images/logos/logo.png');
-			z-index: 9999;
-}*/
-/*header#mainHeader {
-	background-image: url('../images/backgrounds/jarBg.jpg');
-  	background-size: cover;
-  	background-position: center;
-  	opacity: 0.9;*/
-/*	img {
-		margin-left: 20px;
-		margin-top: 5px;
-	}*/
-/*}*/
-/*header#mainHeader{
-  background-image: url('../images/backgrounds/jarBg.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
-}*/
 /***********************************************************/
+/*********************Home Page****************************/
 section#left {
   display: inline-block;
   width: 30%;
@@ -133,9 +86,13 @@ section#left {
   float: left;
   margin-top: 430px;
   color: white;
+  text-align: center;
 }
 section#left .topBtn {
   margin-top: -15px;
+}
+section#left h1 {
+  text-align: center;
 }
 section#treeDonate img {
   float: left;
@@ -152,8 +109,14 @@ section#right {
   width: 30%;
   margin: 0 1.65%;
   float: right;
-  margin-top: 430px;
+  margin-top: 420px;
   color: white;
+}
+section#right #totalPicked {
+  text-align: center;
+}
+section#right h1 {
+  text-align: center;
 }
 .topBtn {
   display: block;
@@ -172,20 +135,20 @@ section#right {
 }
 .topBtn:hover {
   background: #3d3d3d;
-  color: white;
+  color: #00a652;
   cursor: pointer;
 }
-.red {
-  color: #447f75;
+.emphasis {
+  color: #00a652;
   font-family: 'Champagne & Limousines', sans-serif;
   font-size: 40px;
-  margin-left: 130px;
 }
-#wrapper1 {
+/*********************About Page***************************/
+#aboutUsWrap {
   background-image: url('../images/backgrounds/background6.jpg');
   background-size: cover;
   background-position: center;
-  height: 580px;
+  height: 680px;
 }
 section#aboutUs {
   font-size: 18px;
@@ -200,7 +163,7 @@ section#aboutUs {
   font-size: 17px;
 }
 section#aboutUs p {
-  line-height: 26px;
+  line-height: 30px;
 }
 aside#donors {
   float: left;
@@ -212,8 +175,8 @@ aside#donors {
 aside#donors ul li {
   display: inline;
   width: 200px;
-  padding: 5px;
-  line-height: 35px;
+  padding: 20px;
+  line-height: 55px;
 }
 aside#donors ul li a:hover {
   opacity: 0.5;
@@ -221,7 +184,11 @@ aside#donors ul li a:hover {
 aside#donors ul li a {
   margin-top: 10px;
 }
-#wrapper2 {
+aside#donors h1 {
+  text-align: center;
+  color: white;
+}
+#ourJobWrap {
   background-image: url('../images/backgrounds/background3.jpg');
   background-size: cover;
   background-position: center;
@@ -245,7 +212,9 @@ section#whatWeDo p {
   margin: 60px 0 0 100px;
   padding-bottom: 50px;
 }
-#wrapper3 {
+/*********************************************************/
+/*********************Team Page****************************/
+#ourTeamWrap {
   background-image: url('../images/backgrounds/background7.jpg');
   background-size: cover;
   background-position: center;
@@ -287,8 +256,30 @@ section#history {
 }
 section#history p {
   line-height: 30px;
+  color: white;
 }
-#wrapper4 {
+/***********************Gallery****************************/
+section#gallery ul li {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section#gallery h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+section#gallery ul li a:hover {
+  opacity: 0.5;
+}
+section#gallery img {
+  border: 4px solid white;
+}
+/**********************************************************/
+/********************Get Involved Page*********************/
+#getInvolvedWrap {
   background-image: url('../images/backgrounds/background5.jpg');
   background-size: cover;
   background-position: center;
@@ -296,6 +287,7 @@ section#history p {
 }
 section#getInvolved {
   /*	.widthfloat(30%);*/
+
   font-size: 24px;
   font-family: 'Young', sans-serif;
   color: #fff;
@@ -307,7 +299,23 @@ section#getInvolved {
 }
 section#getInvolved .info {
   text-align: center;
-  padding-bottom: 30px;
+  font-size: 20px;
+}
+section#getInvolved h1 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+section#getInvolved #emailUs {
+  text-align: center;
+  font-size: 18px;
+}
+section#getInvolved #callUs {
+  text-align: center;
+  font-size: 18px;
+}
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
 }
 #mailing {
   margin-top: 30px;
@@ -319,7 +327,7 @@ section.formgroup {
   margin: 0 2.75%;
   display: inline-block;
   color: #000;
-  line-height: 45px;
+  line-height: 37px;
   margin-top: 10px;
   padding-left: 260px;
 }
@@ -330,8 +338,10 @@ section.formgroup label {
   color: white;
 }
 span.radioColor {
-  color: #828282;
+  color: white;
 }
+/**********************************************************/
+/*********************Blog Page****************************/
 section#blog {
   float: left;
   display: inline-block;
@@ -356,19 +366,26 @@ p#post {
 #post2 {
   width: 80%;
 }
+<<<<<<< HEAD
 #post3 {
   width: 80%;
 }
+=======
+/************************Footer****************************/
+>>>>>>> 9160db69eb9d18d5a59fa52f5f6e45d5bb28622b
 footer.bottomFooter {
   background-color: #3d3d3d;
   clear: both;
+  color: #00a652;
   text-align: center;
+  padding: 10px 0 10px 0;
 }
-/*************CONTACT*************/
-/**************/
 /*********MEDIA QUERIES*********/
 /********HOME PAGE********/
 /*********************/
 /********MENU*********/
 /***********************/
+<<<<<<< HEAD
 /*********BLOG POST********/
+=======
+>>>>>>> 9160db69eb9d18d5a59fa52f5f6e45d5bb28622b

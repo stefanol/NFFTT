@@ -336,6 +336,16 @@ section#blog {
 	clear:both;
 	margin-left: 240px;
 	color: @white;
+	p a:hover {
+	color: @bggreen;
+
+	-o-transition:color .5s ease-out;
+  	-ms-transition:color .5s ease-out;
+  	-moz-transition:color .5s ease-out;
+  	-webkit-transition:color .5s ease-out;
+  
+  	transition:color .5s ease-out;
+	}
 }
 
 section#blog a {
@@ -350,7 +360,7 @@ section#blog img {
 	width: 80%;
 }
 
-p#post {
+#post {
 	margin-top: -10px;
 }
 

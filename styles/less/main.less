@@ -34,6 +34,10 @@ nav#mainNav {
 	}
 }
 
+nav#mainNav a:hover {
+	color: @lightgrey;
+}
+
 #paypalBtn {
 	margin: 15px 0 20px 950px;
 	height: 20px;
@@ -328,16 +332,41 @@ span.radioColor {
 /**********************************************************/
 /*********************Blog Page****************************/
 section#blog {
-	padding-top: 80px;
+	padding-top: 50px;
 	.widthfloat(80%);
 	font-family: 'Young', Helvetica, sans-serif;
 	clear:both;
 	margin-left: 240px;
 	color: @white;
+	#post1 {
+		img{
+			padding-right: 20px;
+		}
+		.post {
+			margin-top: -15px;
+		}
+	}
+	#post2 {
+		img {
+			padding-right: 20px;
+		}
+		.post {
+			margin-top: -15px;
+		}
+	}
+	#post3 {
+		img {
+			padding-right: 20px;
+		}
+		.post {
+			margin-top: -15px;
+		}
+	}
 }
 
 section#blog a {
-	color: @grassgreen;
+	color: @bggrey;
+	text-decoration: underline;
 }
 
 section#blog img {
@@ -346,10 +375,11 @@ section#blog img {
 
 #post1 {
 	width: 80%;
+
 }
 
-p#post {
-	margin-top: -10px;
+p#post1 {
+	margin-top: 10px;
 }
 
 #post2 {
@@ -358,6 +388,10 @@ p#post {
 
 #post3 {
 	width: 80%;
+}
+
+.author {
+	color: @bggrey;
 }
 
 /*****************************************************/

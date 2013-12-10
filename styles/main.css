@@ -64,6 +64,9 @@ nav#mainNav ul li {
 nav#mainNav ul li a {
   color: #2ecc71;
 }
+nav#mainNav a:hover {
+  color: #727171;
+}
 #paypalBtn {
   margin: 15px 0 20px 950px;
   height: 20px;
@@ -355,7 +358,7 @@ span.radioColor {
 /**********************************************************/
 /*********************Blog Page****************************/
 section#blog {
-  padding-top: 80px;
+  padding-top: 50px;
   float: left;
   display: inline-block;
   width: 80%;
@@ -365,8 +368,27 @@ section#blog {
   margin-left: 240px;
   color: #ffffff;
 }
+section#blog #post1 img {
+  padding-right: 20px;
+}
+section#blog #post1 .post {
+  margin-top: -15px;
+}
+section#blog #post2 img {
+  padding-right: 20px;
+}
+section#blog #post2 .post {
+  margin-top: -15px;
+}
+section#blog #post3 img {
+  padding-right: 20px;
+}
+section#blog #post3 .post {
+  margin-top: -15px;
+}
 section#blog a {
-  color: #53a08e;
+  color: #3d3d3d;
+  text-decoration: underline;
 }
 section#blog img {
   float: left;
@@ -374,14 +396,17 @@ section#blog img {
 #post1 {
   width: 80%;
 }
-p#post {
-  margin-top: -10px;
+p#post1 {
+  margin-top: 10px;
 }
 #post2 {
   width: 80%;
 }
 #post3 {
   width: 80%;
+}
+.author {
+  color: #3d3d3d;
 }
 /*****************************************************/
 /************************Footer****************************/

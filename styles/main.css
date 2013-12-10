@@ -148,10 +148,10 @@ section#right h1 {
   background-image: url('../images/backgrounds/background6.jpg');
   background-size: cover;
   background-position: center;
-  height: 680px;
+  height: 700px;
 }
 section#aboutUs {
-  padding-top: 80px;
+  padding-top: 90px;
   font-size: 18px;
   float: left;
   display: inline-block;
@@ -165,7 +165,7 @@ section#aboutUs {
   padding-bottom: 20px;
 }
 section#aboutUs p {
-  line-height: 30px;
+  line-height: 27px;
 }
 aside#donors {
   float: left;
@@ -173,12 +173,13 @@ aside#donors {
   width: 40%;
   margin: 0 2.2%;
   margin-top: 20px;
+  padding-top: 70px;
 }
 aside#donors ul li {
   display: inline;
   width: 200px;
   padding: 20px;
-  line-height: 55px;
+  line-height: 35px;
 }
 aside#donors ul li a:hover {
   opacity: 0.5;
@@ -194,13 +195,13 @@ aside#donors h1 {
   background-image: url('../images/backgrounds/background3.jpg');
   background-size: cover;
   background-position: center;
-  height: 580px;
+  height: 700px;
 }
 section#whatWeDo {
-  font-size: 24px;
+  font-size: 20px;
+  padding-top: 90px;
   color: white;
   font-family: 'Young', Helvetica, sans-serif;
-  font-size: 20px;
   display: inline-block;
   width: 60%;
   margin: 0 3.3%;
@@ -211,7 +212,7 @@ section#whatWeDo p {
   line-height: 45px;
 }
 #wardImg img {
-  margin: 60px 0 0 100px;
+  margin: 140px 0 0 100px;
   padding-bottom: 50px;
 }
 /*********************************************************/
@@ -220,14 +221,14 @@ section#whatWeDo p {
   background-image: url('../images/backgrounds/background7.jpg');
   background-size: cover;
   background-position: center;
-  height: 580px;
+  height: 700px;
 }
 section#ourTeam {
   float: left;
   display: inline-block;
   width: 50%;
   margin: 0 2.75%;
-  margin-top: 10px;
+  padding-top: 90px;
 }
 section#ourTeam ul li {
   line-height: 35px;
@@ -250,7 +251,7 @@ section#history {
   display: inline-block;
   width: 40%;
   margin: 0 2.2%;
-  margin-top: 10px;
+  margin-top: 90px;
   font-family: 'Tekton Pro', Helvetica, sans-serif;
   font-size: 18px;
   font-family: 'Young', Helvetica, sans-serif;
@@ -262,8 +263,8 @@ section#history p {
 }
 /***********************Gallery****************************/
 section#gallery {
-  padding-bottom: 42px;
-  padding-top: 15px;
+  padding-bottom: 50px;
+  padding-top: 100px;
 }
 section#gallery ul li {
   display: inline-block;
@@ -289,10 +290,10 @@ section#gallery img {
   background-image: url('../images/backgrounds/background5.jpg');
   background-size: cover;
   background-position: center;
-  height: 580px;
+  height: 680px;
 }
 section#getInvolved {
-  /*	.widthfloat(30%);*/
+  padding-top: 90px;
   font-size: 24px;
   font-family: 'Young', sans-serif;
   color: #fff;
@@ -326,6 +327,7 @@ section#getInvolved #callUs {
   margin-top: 30px;
 }
 section.formgroup {
+  padding-top: 90px;
   font-size: 18px;
   float: left;
   width: 50%;

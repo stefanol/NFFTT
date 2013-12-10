@@ -152,16 +152,17 @@ section#right h1 {
 }
 section#aboutUs {
   padding-top: 90px;
-  font-size: 18px;
+  font-size: 1.125em;
   float: left;
   display: inline-block;
   width: 50%;
   margin: 0 2.75%;
   color: white;
   /*	margin-top: 40px;*/
+
   clear: both;
   font-family: 'Young', Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 1.063em;
   padding-bottom: 20px;
 }
 section#aboutUs p {
@@ -237,12 +238,12 @@ section#ourTeam h1 {
   color: #ffffff;
 }
 span.position {
-  font-size: 20px;
+  font-size: 1.250em;
   color: #a6822d;
   font-family: Helvetica;
 }
 span.name {
-  font-size: 18px;
+  font-size: 1.125em;
   font-family: Helvetica;
   color: white;
 }
@@ -255,10 +256,8 @@ section#history {
   width: 40%;
   margin: 0 2.2%;
   margin-top: 90px;
-  font-family: 'Tekton Pro', Helvetica, sans-serif;
-  font-size: 18px;
   font-family: 'Young', Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 0.938em;
 }
 section#history p {
   line-height: 30px;
@@ -300,10 +299,9 @@ section#gallery img {
 }
 section#getInvolved {
   padding-top: 90px;
-  font-size: 24px;
   font-family: 'Young', sans-serif;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.938em;
   float: left;
   display: inline-block;
   width: 40%;
@@ -311,7 +309,7 @@ section#getInvolved {
 }
 section#getInvolved .info {
   text-align: center;
-  font-size: 20px;
+  font-size: 1.250em;
 }
 section#getInvolved h1 {
   text-align: center;
@@ -319,11 +317,11 @@ section#getInvolved h1 {
 }
 section#getInvolved #emailUs {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 section#getInvolved #callUs {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 .underline {
   text-decoration: underline;
@@ -334,7 +332,7 @@ section#getInvolved #callUs {
 }
 section.formgroup {
   padding-top: 90px;
-  font-size: 18px;
+  font-size: 1.125em;
   float: left;
   width: 50%;
   margin: 0 2.75%;
@@ -403,7 +401,7 @@ footer.bottomFooter ul li a:hover {
 }
 footer.bottomFooter h2 {
   font-family: 'Young';
-  font-size: 14px;
+  font-size: 0.875em;
 }
 /*********MEDIA QUERIES*********/
 /********HOME PAGE********/

@@ -135,11 +135,11 @@ section#right h1 {
 }
 .topBtn:hover {
   background: #3d3d3d;
-  color: #00a652;
+  color: #2ecc71;
   cursor: pointer;
 }
 .emphasis {
-  color: #00a652;
+  color: #2ecc71;
   font-family: 'Champagne & Limousines', sans-serif;
   font-size: 40px;
 }
@@ -368,7 +368,7 @@ section#blog {
   color: #ffffff;
 }
 section#blog a {
-  color: #53a08e;
+  color: #ffffff;
 }
 section#blog img {
   float: left;
@@ -390,7 +390,7 @@ p#post {
 footer.bottomFooter {
   background-color: #3d3d3d;
   clear: both;
-  color: #00a652;
+  color: #2ecc71;
   text-align: center;
   padding: 10px 0 10px 0;
 }

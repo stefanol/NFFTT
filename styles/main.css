@@ -159,7 +159,6 @@ section#aboutUs {
   margin: 0 2.75%;
   color: white;
   /*	margin-top: 40px;*/
-
   clear: both;
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 17px;
@@ -294,7 +293,6 @@ section#gallery img {
 }
 section#getInvolved {
   /*	.widthfloat(30%);*/
-
   font-size: 24px;
   font-family: 'Young', sans-serif;
   color: #fff;

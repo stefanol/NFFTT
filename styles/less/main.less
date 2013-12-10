@@ -25,7 +25,7 @@ nav#mainNav {
 	ul li {
 	    display: inline;
 	    font-size: 25px;
-	    font-family: Young, sans-serif;
+	    font-family: 'Young', Helvetica, sans-serif;
 	    margin: 20px 0 0 50px;
 	    padding-left: 10px;
 	    a {
@@ -272,7 +272,7 @@ section#gallery {
 
 section#getInvolved {
 	padding-top: 90px;
-	font-family: 'Young', sans-serif;
+	font-family: 'Young', Helvetica, sans-serif;
 	color: #fff;
 	font-size: 0.938em;
 	.widthfloat(40%);
@@ -319,11 +319,40 @@ section.formgroup {
 	}
 	label {
 		color: white;
+		font-family: 'Young', Helvetica, sans-serif;
 	}
+}
+
+input {
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.btn {
+	display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888, #555);
+    background: linear-gradient(#888, #555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.btn:hover {
+	background: @bggrey;
+	color: @lightgreen;
+	cursor: pointer;
 }
 
 span.radioColor {
 	color: white;
+	font-family: 'Young', Helvetica, sans-serif;
 }
 
 /**********************************************************/
@@ -391,7 +420,7 @@ footer.bottomFooter {
 	opacity: 0.4;
 	}
 	h2 {
-	font-family: 'Young';
+	font-family: 'Young', Helvetica, sans-serif;
 	font-size: 0.875em;
 	}
 }

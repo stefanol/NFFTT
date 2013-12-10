@@ -57,7 +57,7 @@ nav#mainNav {
 nav#mainNav ul li {
   display: inline;
   font-size: 25px;
-  font-family: Young, sans-serif;
+  font-family: 'Young', Helvetica, sans-serif;
   margin: 20px 0 0 50px;
   padding-left: 10px;
 }
@@ -299,7 +299,7 @@ section#gallery img {
 }
 section#getInvolved {
   padding-top: 90px;
-  font-family: 'Young', sans-serif;
+  font-family: 'Young', Helvetica, sans-serif;
   color: #fff;
   font-size: 0.938em;
   float: left;
@@ -348,9 +348,35 @@ section.formgroup h1 {
 }
 section.formgroup label {
   color: white;
+  font-family: 'Young', Helvetica, sans-serif;
+}
+input {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.btn {
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #ccc;
+  background-color: #555;
+  background: -webkit-linear-gradient(#888888, #555555);
+  background: linear-gradient(#888888, #555555);
+  border: 0 none;
+  border-radius: 3px;
+  text-shadow: 0 -1px 0 #000000;
+  box-shadow: 0 1px 0 #666666, 0 5px 0 #444444, 0 6px 6px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.btn:hover {
+  background: #3d3d3d;
+  color: #2ecc71;
+  cursor: pointer;
 }
 span.radioColor {
   color: white;
+  font-family: 'Young', Helvetica, sans-serif;
 }
 /**********************************************************/
 /*********************Blog Page****************************/
@@ -409,7 +435,7 @@ footer.bottomFooter ul li a:hover {
   opacity: 0.4;
 }
 footer.bottomFooter h2 {
-  font-family: 'Young';
+  font-family: 'Young', Helvetica, sans-serif;
   font-size: 0.875em;
 }
 /*********MEDIA QUERIES*********/

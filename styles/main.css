@@ -62,7 +62,7 @@ nav#mainNav ul li {
   padding-left: 10px;
 }
 nav#mainNav ul li a {
-  color: #00a652;
+  color: #2ecc71;
 }
 #paypalBtn {
   margin: 15px 0 20px 950px;
@@ -385,6 +385,17 @@ footer.bottomFooter {
   color: #00a652;
   text-align: center;
   padding: 10px 0 10px 0;
+}
+footer.bottomFooter ul li {
+  display: inline;
+  padding: 0 2px 0 2px;
+}
+footer.bottomFooter ul li a:hover {
+  opacity: 0.4;
+}
+footer.bottomFooter h2 {
+  font-family: 'Young';
+  font-size: 14px;
 }
 /*********MEDIA QUERIES*********/
 /********HOME PAGE********/

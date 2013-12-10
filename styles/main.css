@@ -470,6 +470,23 @@ footer.bottomFooter h2 {
   font-size: 0.875em;
 }
 /*********MEDIA QUERIES*********/
+/**********TABLET**************/
+@media only screen and (min-width: 768px) {
+  /*	nav#mainNav {
+      display: inline-block;
+      position: fixed;
+  	ul li {
+  	    display: inline;
+  	    font-size: 25px;
+  	    font-family: 'Young', Helvetica, sans-serif;
+  	    margin: 20px 0 0 50px;
+  	    padding-left: 10px;
+  	    a {
+  	        color: @bggrey; 
+  	    }
+  	}
+  }*/
+}
 /********HOME PAGE********/
 /*********************/
 /********MENU*********/

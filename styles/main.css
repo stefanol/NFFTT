@@ -476,4 +476,15 @@ footer.bottomFooter h2 {
 /***********************/
 /*********BLOG POST********/
 /*********BLOG POST********/
-/*********BLOG POST********/
+/*********BLOG PAGE********/
+#containerBlogpage {
+  padding-top: 100px;
+  color: #ffffff;
+}
+section#blogpost {
+  width: 50%;
+  margin-left: 240px;
+}
+section#blogpost p {
+  font-family: 'Young', Helvetica, sans-serif;
+}

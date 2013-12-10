@@ -42,7 +42,7 @@ h4 {
 }
 /******GLOBAL STYLES*******/
 body {
-  background-color: #5aa89b;
+  background-color: #27ae60;
 }
 #containMain {
   background-image: url('../images/backgrounds/background1.jpg');
@@ -145,7 +145,7 @@ section#right h1 {
 }
 /*********************About Page***************************/
 #aboutUsWrap {
-  background-image: url('../images/backgrounds/background6.jpg');
+  background-image: url('../images/backgrounds/background4.jpg');
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -233,6 +233,9 @@ section#ourTeam {
 section#ourTeam ul li {
   line-height: 35px;
 }
+section#ourTeam h1 {
+  color: #ffffff;
+}
 span.position {
   font-size: 20px;
   color: #a6822d;
@@ -260,6 +263,9 @@ section#history {
 section#history p {
   line-height: 30px;
   color: white;
+}
+section#history h2 {
+  color: #ffffff;
 }
 /***********************Gallery****************************/
 section#gallery {
@@ -358,6 +364,7 @@ section#blog {
   font-family: 'Young', Helvetica, sans-serif;
   clear: both;
   margin-left: 240px;
+  color: #ffffff;
 }
 section#blog a {
   color: #53a08e;

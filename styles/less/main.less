@@ -9,7 +9,7 @@
 /******GLOBAL STYLES*******/
 
 body {
-  background-color: @bgteal;
+  background-color: @bggreen;
 }
 
 #containMain {
@@ -25,7 +25,7 @@ nav#mainNav {
 	ul li {
 	    display: inline;
 	    font-size: 25px;
-	    font-family: Young, sans-serif;
+	    font-family: 'Young', Helvetica, sans-serif;
 	    margin: 20px 0 0 50px;
 	    padding-left: 10px;
 	    a {
@@ -35,7 +35,7 @@ nav#mainNav {
 }
 
 nav#mainNav a:hover {
-	color: @lightgrey;
+	color: @bggrey;
 }
 
 #paypalBtn {
@@ -106,13 +106,13 @@ section#right {
 
 .topBtn:hover {
 	background: @bggrey;
-	color: @green;
+	color: @lightgreen;
 	cursor: pointer;
 }
 
 
 .emphasis {
-	color: @green;
+	color: @lightgreen;
 	font-family: 'Champagne & Limousines', sans-serif;
 	font-size: 40px;
 }
@@ -209,8 +209,9 @@ section#ourTeam {
 }
 
 span.position {
+	font-size: 20px;
+	color: @gold;
 	font-size: 1.250em;
-	color: @brown;
 	font-family: Helvetica;
 }
 
@@ -275,7 +276,7 @@ section#gallery {
 
 section#getInvolved {
 	padding-top: 90px;
-	font-family: 'Young', sans-serif;
+	font-family: 'Young', Helvetica, sans-serif;
 	color: #fff;
 	font-size: 0.938em;
 	.widthfloat(40%);
@@ -322,17 +323,48 @@ section.formgroup {
 	}
 	label {
 		color: white;
+		font-family: 'Young', Helvetica, sans-serif;
 	}
+}
+
+input {
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.btn {
+	display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888, #555);
+    background: linear-gradient(#888, #555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.btn:hover {
+	background: @bggrey;
+	color: @lightgreen;
+	cursor: pointer;
 }
 
 span.radioColor {
 	color: white;
+	font-family: 'Young', Helvetica, sans-serif;
 }
 
 /**********************************************************/
 /*********************Blog Page****************************/
 section#blog {
 	padding-top: 50px;
+	padding-top: 80px;
+	padding-bottom: 50px;
 	.widthfloat(80%);
 	font-family: 'Young', Helvetica, sans-serif;
 	clear:both;
@@ -361,12 +393,22 @@ section#blog {
 		.post {
 			margin-top: -15px;
 		}
+	p a:hover {
+	color: @bggreen;
+
+	-o-transition:color .5s ease-out;
+  	-ms-transition:color .5s ease-out;
+  	-moz-transition:color .5s ease-out;
+  	-webkit-transition:color .5s ease-out;
+  	transition:color .5s ease-out;
 	}
+}
 }
 
 section#blog a {
 	color: @bggrey;
 	text-decoration: underline;
+	color: @white;
 }
 
 section#blog img {
@@ -380,6 +422,10 @@ section#blog img {
 
 p#post1 {
 	margin-top: 10px;
+}
+
+#post {
+	margin-top: -10px;
 }
 
 #post2 {
@@ -402,7 +448,7 @@ p#post1 {
 footer.bottomFooter {
 	background-color: @bggrey;
 	clear: both;
-	color: @green;
+	color: @lightgreen;
 	text-align: center;
 	padding: 10px 0 10px 0;
 	ul li {
@@ -413,10 +459,11 @@ footer.bottomFooter {
 	opacity: 0.4;
 	}
 	h2 {
-	font-family: 'Young';
+	font-family: 'Young', Helvetica, sans-serif;
 	font-size: 0.875em;
 	}
 }
+
 
 /*********MEDIA QUERIES*********/
 

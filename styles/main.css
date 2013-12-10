@@ -57,7 +57,7 @@ nav#mainNav {
 nav#mainNav ul li {
   display: inline;
   font-size: 25px;
-  font-family: Young, sans-serif;
+  font-family: 'Young', Helvetica, sans-serif;
   margin: 20px 0 0 50px;
   padding-left: 10px;
 }
@@ -65,7 +65,7 @@ nav#mainNav ul li a {
   color: #2ecc71;
 }
 nav#mainNav a:hover {
-  color: #727171;
+  color: #3d3d3d;
 }
 #paypalBtn {
   margin: 15px 0 20px 950px;
@@ -138,11 +138,11 @@ section#right h1 {
 }
 .topBtn:hover {
   background: #3d3d3d;
-  color: #00a652;
+  color: #2ecc71;
   cursor: pointer;
 }
 .emphasis {
-  color: #00a652;
+  color: #2ecc71;
   font-family: 'Champagne & Limousines', sans-serif;
   font-size: 40px;
 }
@@ -241,8 +241,9 @@ section#ourTeam h1 {
   color: #ffffff;
 }
 span.position {
-  font-size: 1.250em;
+  font-size: 20px;
   color: #a6822d;
+  font-size: 1.250em;
   font-family: Helvetica;
 }
 span.name {
@@ -302,7 +303,7 @@ section#gallery img {
 }
 section#getInvolved {
   padding-top: 90px;
-  font-family: 'Young', sans-serif;
+  font-family: 'Young', Helvetica, sans-serif;
   color: #fff;
   font-size: 0.938em;
   float: left;
@@ -351,14 +352,42 @@ section.formgroup h1 {
 }
 section.formgroup label {
   color: white;
+  font-family: 'Young', Helvetica, sans-serif;
+}
+input {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.btn {
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #ccc;
+  background-color: #555;
+  background: -webkit-linear-gradient(#888888, #555555);
+  background: linear-gradient(#888888, #555555);
+  border: 0 none;
+  border-radius: 3px;
+  text-shadow: 0 -1px 0 #000000;
+  box-shadow: 0 1px 0 #666666, 0 5px 0 #444444, 0 6px 6px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.btn:hover {
+  background: #3d3d3d;
+  color: #2ecc71;
+  cursor: pointer;
 }
 span.radioColor {
   color: white;
+  font-family: 'Young', Helvetica, sans-serif;
 }
 /**********************************************************/
 /*********************Blog Page****************************/
 section#blog {
   padding-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   float: left;
   display: inline-block;
   width: 80%;
@@ -386,9 +415,18 @@ section#blog #post3 img {
 section#blog #post3 .post {
   margin-top: -15px;
 }
+section#blog #post3 p a:hover {
+  color: #27ae60;
+  -o-transition: color 0.5s ease-out;
+  -ms-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
 section#blog a {
   color: #3d3d3d;
   text-decoration: underline;
+  color: #ffffff;
 }
 section#blog img {
   float: left;
@@ -398,6 +436,9 @@ section#blog img {
 }
 p#post1 {
   margin-top: 10px;
+}
+#post {
+  margin-top: -10px;
 }
 #post2 {
   width: 80%;
@@ -413,7 +454,7 @@ p#post1 {
 footer.bottomFooter {
   background-color: #3d3d3d;
   clear: both;
-  color: #00a652;
+  color: #2ecc71;
   text-align: center;
   padding: 10px 0 10px 0;
 }
@@ -425,7 +466,7 @@ footer.bottomFooter ul li a:hover {
   opacity: 0.4;
 }
 footer.bottomFooter h2 {
-  font-family: 'Young';
+  font-family: 'Young', Helvetica, sans-serif;
   font-size: 0.875em;
 }
 /*********MEDIA QUERIES*********/

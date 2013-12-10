@@ -358,6 +358,7 @@ span.radioColor {
 /**********************************************************/
 /*********************Blog Page****************************/
 section#blog {
+  padding-top: 80px;
   float: left;
   display: inline-block;
   width: 80%;

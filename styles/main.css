@@ -259,6 +259,10 @@ section#history p {
   color: white;
 }
 /***********************Gallery****************************/
+section#gallery {
+  padding-bottom: 42px;
+  padding-top: 15px;
+}
 section#gallery ul li {
   display: inline-block;
   width: 250px;
@@ -368,6 +372,7 @@ p#post {
 #post3 {
   width: 80%;
 }
+/*****************************************************/
 /************************Footer****************************/
 footer.bottomFooter {
   background-color: #3d3d3d;
@@ -381,4 +386,5 @@ footer.bottomFooter {
 /*********************/
 /********MENU*********/
 /***********************/
+/*********BLOG POST********/
 /*********BLOG POST********/

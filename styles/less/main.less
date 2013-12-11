@@ -35,7 +35,7 @@ nav#mainNav {
 }
 
 nav#mainNav a:hover {
-	color: @bggrey;
+	color: @red;
 }
 
 #paypalBtn {
@@ -262,6 +262,9 @@ section#gallery {
 	img {
 		border: 4px solid white;
 	}
+	input {
+		margin-left: 563px;
+	}
 }
 
 /**********************************************************/
@@ -362,7 +365,6 @@ span.radioColor {
 /**********************************************************/
 /*********************Blog Page****************************/
 section#blog {
-	padding-top: 50px;
 	padding-top: 80px;
 	padding-bottom: 50px;
 	.widthfloat(80%);
@@ -370,74 +372,69 @@ section#blog {
 	clear: both;
 	margin-left: 240px;
 	color: @white;
+	img {
+		float: left;
+	}
 	#post1 {
+		width: 80%;
 		img{
 			padding-right: 20px;
 		}
 		.post {
 			margin-top: -15px;
+			a {
+/*				color: @bggrey;*/
+				text-decoration: underline;
+			}
 		}
 	}
 	#post2 {
+		width: 80%;
 		img {
 			padding-right: 20px;
 		}
 		.post {
 			margin-top: -15px;
+			a {
+				/*color: @bggrey;*/
+				text-decoration: underline;
+			}
 		}
 	}
 	#post3 {
+		width: 80%;
 		img {
 			padding-right: 20px;
 		}
 		.post {
 			margin-top: -15px;
+			a {
+				/*color: @bggrey;*/
+				text-decoration: underline;
+			}
 		}
-	p a:hover {
-	color: @bggreen;
+
+}
+}
+
+/*section#blog a {
+	color: @bggrey;
+	text-decoration: underline;
+	color: @white;
+}*/
+
+.author {
+	color: @bggrey;
+}
+
+section#blog a:hover {
+	color: @red;
 	-o-transition:color .5s ease-out;
   	-ms-transition:color .5s ease-out;
   	-moz-transition:color .5s ease-out;
   	-webkit-transition:color .5s ease-out;
   	transition:color .5s ease-out;
 	}
-}
-}
-
-section#blog a {
-	color: @bggrey;
-	text-decoration: underline;
-	color: @white;
-}
-
-section#blog img {
-	float: left;
-}
-
-#post1 {
-	width: 80%;
-
-}
-
-p#post1 {
-	margin-top: 10px;
-}
-
-#post {
-	margin-top: -10px;
-}
-
-#post2 {
-	width: 80%;
-}
-
-#post3 {
-	width: 80%;
-}
-
-.author {
-	color: @bggrey;
-}
 
 /*****************************************************/
 

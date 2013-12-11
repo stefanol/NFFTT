@@ -464,22 +464,37 @@ footer.bottomFooter {
 /*********MEDIA QUERIES*********/
 /**********TABLET**************/
 
-@media only screen and (min-width: 768px) {
-/*	nav#mainNav {
+@media screen and (max-width: 768px) {
+
+body {
+	width: 768px;
+}
+
+nav#mainNav {
     display: inline-block;
     position: fixed;
+    background-color: red;
 	ul li {
 	    display: inline;
 	    font-size: 25px;
-	    font-family: 'Young', Helvetica, sans-serif;
 	    margin: 20px 0 0 50px;
 	    padding-left: 10px;
 	    a {
-	        color: @bggrey; 
+	        color: @lightgreen; 
 	    }
 	}
-}*/
 }
+
+header#mainHeader {
+	width: 50%;
+    background-color: @bggrey;
+    position: fixed;
+    img {
+    	margin-left: 20px;
+    	margin-top: 5px;
+    }
+}
+
 
 /********HOME PAGE********/
 
@@ -509,4 +524,12 @@ section#blogpost {
 	width: 50%;
 	margin-left: 320px;
 }
+
+}/***end tablet media queries**/
+
+@media screen and (max-width: 480px) {
+
+
+
+}/**end phone media queries**/
 

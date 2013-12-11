@@ -74,6 +74,12 @@ nav#mainNav a:active {
   margin: 15px 0 20px 950px;
   height: 20px;
 }
+#menu {
+  font-family: 'Young', Helvetica, sans-serif;
+  font-size: 40px;
+  color: #27ae60;
+  display: none;
+}
 header#mainHeader {
   width: 100%;
   background-color: #3d3d3d;
@@ -490,7 +496,8 @@ footer.bottomFooter h2 {
 /**********TABLET**************/
 @media screen and (max-width: 768px) {
   nav#mainNav {
-    display: inline-block;
+    /*display: inline-block;*/
+  
     position: fixed;
     background-color: #3d3d3d;
     height: 78px;
@@ -509,7 +516,7 @@ footer.bottomFooter h2 {
     height: 20px;
   }
   header#mainHeader {
-    width: 100%;
+    width: 768px;
     background-color: #3d3d3d;
     position: fixed;
   }
@@ -897,11 +904,6 @@ footer.bottomFooter h2 {
     font-size: 20px;
     text-decoration: underline;
   }
-  /*section#blog a {
-  	color: @bggrey;
-  	text-decoration: underline;
-  	color: @white;
-  }*/
   .author {
     color: #3d3d3d;
   }
@@ -933,27 +935,453 @@ footer.bottomFooter h2 {
     font-family: 'Young', Helvetica, sans-serif;
     font-size: 0.875em;
   }
-  /********HOME PAGE********/
-  /*********************/
-  /********MENU*********/
-  /***********************/
-  /*********BLOG POST********/
-  /*********BLOG POST********/
-  /*********BLOG PAGE********/
-  #containerBlogpage {
-    padding-top: 100px;
-    color: #ffffff;
-  }
-  section#blogpost {
-    width: 50%;
-    margin-left: 320px;
-  }
-  section#blogpost p {
-    font-family: 'Young', Helvetica, sans-serif;
-  }
 }
 /***end tablet media queries**/
 @media screen and (max-width: 480px) {
+  nav#mainNav {
+    display: none;
+    position: fixed;
+    background-color: #3d3d3d;
+    height: 200px;
+  }
+  nav#mainNav ul li {
+    display: inline;
+    font-size: 16px;
+    margin: 30px 0 0 2px;
+    padding-left: 5px;
+  }
+  nav#mainNav ul li a {
+    color: #2ecc71;
+  }
+  #paypalBtn {
+    margin: 15px 0 20px 460px;
+    display: block;
+    height: 20px;
+  }
+  header#mainHeader {
+    width: 100%;
+    background-color: #3d3d3d;
+    position: fixed;
+    height: 100px;
+    padding-bottom: 100px;
+  }
+  header#mainHeader img {
+    margin-left: 160px;
+    margin-top: 5px;
+  }
+  header#mainHeader #menu {
+    display: block;
+  }
+  /***********************************************************/
+  /*********************Home Page****************************/
+  #containMain {
+    background-image: url('../images/backgrounds/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+  }
+  section#left {
+    display: inline-block;
+    width: 90%;
+    margin: 0 4.95%;
+    float: left;
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  section#left .topBtn {
+    margin-top: -15px;
+  }
+  section#left h1 {
+    text-align: center;
+  }
+  section#treeDonate img {
+    /*	.widthfloat(70%);
+  	 height: 300px;
+  	 width: 269px;
+  	 margin-top: 100px;
+  	 margin-left: 10px;*/
   
+    display: none;
+  }
+  section#right {
+    float: left;
+    display: inline-block;
+    width: 90%;
+    margin: 0 4.95%;
+    float: right;
+    margin-top: 60px;
+    color: white;
+  }
+  section#right #totalPicked {
+    text-align: center;
+  }
+  section#right h1 {
+    text-align: center;
+  }
+  .topBtn {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px auto;
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888888, #555555);
+    background: linear-gradient(#888888, #555555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000000;
+    box-shadow: 0 1px 0 #666666, 0 5px 0 #444444, 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+  }
+  .topBtn:hover {
+    background: #3d3d3d;
+    color: #2ecc71;
+    cursor: pointer;
+  }
+  .emphasis {
+    color: #2ecc71;
+    font-family: 'Champagne & Limousines', sans-serif;
+    font-size: 40px;
+  }
+  /*********************About Page***************************/
+  #aboutUsWrap {
+    background-image: url('../images/backgrounds/background4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 2100px;
+  }
+  section#aboutUs {
+    padding-top: 90px;
+    font-size: 1.125em;
+    float: left;
+    display: inline-block;
+    width: 90%;
+    margin: 0 4.95%;
+    color: white;
+    /*	margin-top: 40px;*/
+  
+    clear: both;
+    font-family: 'Young', Helvetica, sans-serif;
+    font-size: 1.063em;
+    padding-bottom: 20px;
+  }
+  section#aboutUs h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#aboutUs p {
+    line-height: 30px;
+    margin-bottom: -100px;
+  }
+  aside#donors {
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  aside#donors ul li {
+    display: inline;
+    width: 300px;
+    line-height: 30px;
+  }
+  aside#donors ul li a:hover {
+    opacity: 1;
+  }
+  aside#donors ul li a {
+    margin-top: 10px;
+  }
+  aside#donors h1 {
+    text-align: center;
+    color: white;
+    margin-right: -20px;
+    margin-bottom: 10px;
+  }
+  #ourJobWrap {
+    background-image: url('../images/backgrounds/background3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1150px;
+  }
+  section#whatWeDo {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    width: 90%;
+    margin: 0 4.95%;
+    float: left;
+    margin-top: 30px;
+  }
+  section#whatWeDo p {
+    line-height: 35px;
+  }
+  section#whatWeDo h1 {
+    text-align: center;
+  }
+  #wardImg img {
+    margin: -10px 0 0 130px;
+    padding-bottom: 50px;
+    height: 300px;
+    width: 200px;
+  }
+  /*********************************************************/
+  /*********************Team Page****************************/
+  #ourTeamWrap {
+    background-image: url('../images/backgrounds/background7.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1420px;
+  }
+  section#ourTeam {
+    float: left;
+    display: inline-block;
+    width: 90%;
+    margin: 0 4.95%;
+    /*	margin-left: 200px;*/
+  
+  }
+  section#ourTeam ul li {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  section#ourTeam h1 {
+    color: #ffffff;
+  }
+  span.position {
+    font-size: 20px;
+    color: #a6822d;
+    font-size: 1.250em;
+    font-family: Helvetica;
+  }
+  span.name {
+    font-size: 1.125em;
+    font-family: Helvetica;
+    color: white;
+  }
+  .steerCom {
+    margin-left: 165px;
+  }
+  section#history {
+    float: left;
+    display: inline-block;
+    width: 90%;
+    margin: 0 4.95%;
+    margin-top: 20px;
+    font-family: 'Young', Helvetica, sans-serif;
+    font-size: 1.000em;
+  }
+  section#history p {
+    line-height: 30px;
+    color: white;
+  }
+  section#history h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+  /***********************Gallery****************************/
+  section#gallery {
+    padding-bottom: 50px;
+    padding-top: 75px;
+  }
+  section#gallery ul li {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section#gallery h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+  section#gallery ul li a:hover {
+    opacity: 0.5;
+  }
+  section#gallery img {
+    border: 4px solid white;
+  }
+  section#gallery input {
+    margin-left: 140px;
+  }
+  /**********************************************************/
+  /********************Get Involved Page*********************/
+  #getInvolvedWrap {
+    background-image: url('../images/backgrounds/background5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 2000px;
+  }
+  section#getInvolved {
+    padding-top: 80px;
+    font-family: 'Young', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 0.938em;
+    float: left;
+    display: inline-block;
+    width: 90%;
+    margin: 0 4.95%;
+  }
+  section#getInvolved .centerIt {
+    text-align: center;
+  }
+  section#getInvolved .info {
+    text-align: center;
+    font-size: 1.250em;
+  }
+  section#getInvolved h1 {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  section#getInvolved #emailUs {
+    text-align: center;
+    font-size: 1.125em;
+  }
+  section#getInvolved #callUs {
+    text-align: center;
+    font-size: 1.125em;
+  }
+  .underline {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #mailing {
+    margin-top: 30px;
+  }
+  section.formgroup {
+    padding-top: 20px;
+    /*float: left;*/
+  
+    font-size: 1.125em;
+    float: left;
+    width: -40%;
+    margin: 0 -2.2%;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: -135px;
+    width: 420px;
+  }
+  section.formgroup h1 {
+    color: white;
+  }
+  section.formgroup label {
+    color: white;
+    font-family: 'Young', Helvetica, sans-serif;
+  }
+  input {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .btn {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888888, #555555);
+    background: linear-gradient(#888888, #555555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000000;
+    box-shadow: 0 1px 0 #666666, 0 5px 0 #444444, 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    margin: 15px 0 0 40px;
+  }
+  .btn:hover {
+    background: #3d3d3d;
+    color: #2ecc71;
+    cursor: pointer;
+  }
+  span.radioColor {
+    color: white;
+    font-family: 'Young', Helvetica, sans-serif;
+  }
+  /**********************************************************/
+  /*********************Blog Page****************************/
+  section#blog {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin: 0 5.5%;
+    font-family: 'Young', Helvetica, sans-serif;
+    clear: both;
+    color: #ffffff;
+  }
+  section#blog h1 {
+    width: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section#blog img {
+    float: left;
+  }
+  section#blog #post1 {
+    width: 80%;
+  }
+  section#blog #post1 img {
+    padding-right: 20px;
+  }
+  section#blog #post1 .post {
+    margin-top: -15px;
+  }
+  section#blog #post1 .post a {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  section#blog #post2 {
+    width: 80%;
+  }
+  section#blog #post2 img {
+    padding-right: 20px;
+  }
+  section#blog #post2 .post {
+    margin-top: -15px;
+  }
+  section#blog #post2 .post a {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  section#blog #post3 {
+    width: 80%;
+  }
+  section#blog #post3 img {
+    padding-right: 20px;
+  }
+  section#blog #post3 .post {
+    margin-top: -15px;
+  }
+  section#blog #post3 .post a {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .author {
+    color: #3d3d3d;
+  }
+  /*****************************************************/
+  /************************Footer****************************/
+  footer.bottomFooter {
+    background-color: #3d3d3d;
+    clear: both;
+    color: #2ecc71;
+    text-align: center;
+    padding: 10px 0 10px 0;
+  }
+  footer.bottomFooter ul li {
+    display: inline;
+    padding: 0 2px 0 2px;
+  }
+  footer.bottomFooter ul li a:hover {
+    opacity: 0.4;
+  }
+  footer.bottomFooter h2 {
+    font-family: 'Young', Helvetica, sans-serif;
+    font-size: 0.875em;
+  }
 }
 /**end phone media queries**/

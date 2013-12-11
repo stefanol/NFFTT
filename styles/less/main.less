@@ -47,6 +47,13 @@ nav#mainNav a:active {
 	height: 20px;
 }
 
+#menu {
+	font-family: 'Young', Helvetica, sans-serif;
+	font-size: 40px;
+	color: @bggreen;
+	display: none;
+}
+
 header#mainHeader {
 	width: 100%;
     background-color: @bggrey;
@@ -475,7 +482,7 @@ footer.bottomFooter {
 
 
 nav#mainNav {
-    display: inline-block;
+    /*display: inline-block;*/
     position: fixed;
     background-color: @bggrey;
     height: 78px;
@@ -496,7 +503,7 @@ nav#mainNav {
 }
 
 header#mainHeader {
-	width: 100%;
+	width: 768px;
     background-color: @bggrey;
     position: fixed;
     img {
@@ -884,15 +891,8 @@ section#blog {
 				text-decoration: underline;
 			}
 		}
-
+	}
 }
-}
-
-/*section#blog a {
-	color: @bggrey;
-	text-decoration: underline;
-	color: @white;
-}*/
 
 .author {
 	color: @bggrey;
@@ -931,43 +931,468 @@ footer.bottomFooter {
 	}
 }
 
-
-
-
-/********HOME PAGE********/
-
-/*********************/
-/********MENU*********/
-
-
-
-/***********************/
-
-
-/*********BLOG POST********/
-
-/*********BLOG POST********/
-
-
-/*********BLOG PAGE********/
-#containerBlogpage {
-	padding-top: 100px;
-	color: @white;
-}
-
-section#blogpost {
-	p {
-	font-family: 'Young', Helvetica, sans-serif;
-	}
-	width: 50%;
-	margin-left: 320px;
-}
-
 }/***end tablet media queries**/
 
 @media screen and (max-width: 480px) {
 
+nav#mainNav {
+    display: none;
+    position: fixed;
+    background-color: @bggrey;
+    height: 200px;
+	ul li {
+	    display: inline;
+	    font-size: 16px;
+	    margin: 30px 0 0 2px;
+	    padding-left: 5px;
+	    a {
+	        color: @lightgreen; 
+	    }
+	}
+}
 
+#paypalBtn {
+	margin: 15px 0 20px 460px;
+	display: block;
+	height: 20px;
+}
+
+header#mainHeader {
+	width: 100%;
+    background-color: @bggrey;
+    position: fixed;
+    height: 100px;
+    padding-bottom: 100px;
+    img {
+    	margin-left: 160px;
+    	margin-top: 5px;
+    }
+    #menu {
+	display: block;
+	}
+}
+
+/***********************************************************/
+/*********************Home Page****************************/
+#containMain {
+	background-image: url('../images/backgrounds/background1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 900px;
+}
+
+section#left {
+	.widthfloat(90%);
+	float: left;
+	margin-top: 300px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	.topBtn {
+		margin-top: -15px
+	}
+	h1 {
+		text-align: center;
+	}
+}
+
+section#treeDonate img {
+/*	.widthfloat(70%);
+	 height: 300px;
+	 width: 269px;
+	 margin-top: 100px;
+	 margin-left: 10px;*/
+	 display: none;
+}
+
+section#right {
+	.widthfloat(90%);
+	float: right;
+	margin-top: 60px;
+	color: white;
+	#totalPicked {
+		text-align: center;
+	}
+	h1 {
+		text-align: center;
+	}
+}
+
+.topBtn {
+	display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px auto;
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888, #555);
+    background: linear-gradient(#888, #555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.topBtn:hover {
+	background: @bggrey;
+	color: @lightgreen;
+	cursor: pointer;
+}
+
+
+.emphasis {
+	color: @lightgreen;
+	font-family: 'Champagne & Limousines', sans-serif;
+	font-size: 40px;
+}
+/*********************About Page***************************/
+
+#aboutUsWrap {
+	background-image: url('../images/backgrounds/background4.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 2100px;
+}
+
+section#aboutUs {
+	padding-top: 90px;
+	font-size: 1.125em;
+	.widthfloat(90%);
+	color: white;
+/*	margin-top: 40px;*/
+	clear: both;
+	font-family: 'Young', Helvetica, sans-serif;
+	font-size: 1.063em;
+	padding-bottom: 20px;
+	h1 {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	p {
+	line-height: 30px;
+	margin-bottom: -100px;
+	}
+}
+
+aside#donors {
+	width: 400px;
+	text-align: center;
+	margin-top: 50px;
+	ul li {
+		display: inline;
+		width: 300px;
+		line-height: 30px;
+	}
+	ul li a:hover{
+		opacity: 1;
+	}
+	ul li a {
+		margin-top: 10px;
+	}
+	h1 {
+		text-align: center;
+		color: white;
+		margin-right: -20px;
+		margin-bottom: 10px;
+	}
+}
+
+#ourJobWrap {
+	background-image: url('../images/backgrounds/background3.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 1150px;
+}
+
+section#whatWeDo {
+	font-size: 20px;
+	color: white;
+	.widthfloat(90%);
+	float: left;
+	margin-top: 30px;
+	p {
+		line-height: 35px;
+	}
+	h1 {
+		text-align: center;
+	}
+}
+
+#wardImg img {
+	margin: -10px 0 0 130px;
+	padding-bottom: 50px;
+	height: 300px;
+	width: 200px;
+
+}
+/*********************************************************/
+/*********************Team Page****************************/
+
+#ourTeamWrap {
+	background-image: url('../images/backgrounds/background7.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 1420px;
+}
+
+section#ourTeam {
+	.widthfloat(90%);
+/*	margin-left: 200px;*/
+	ul li {
+		line-height: 30px;
+		font-size: 14px;
+	}
+	h1 {
+	color: @white;
+	}
+}
+
+span.position {
+	font-size: 20px;
+	color: @gold;
+	font-size: 1.250em;
+	font-family: Helvetica;
+}
+
+span.name {
+	font-size: 1.125em;
+	font-family: Helvetica;
+	color: white;
+}
+
+.steerCom {
+	margin-left: 165px;
+
+}
+
+section#history {
+	.widthfloat(90%);
+	margin-top: 20px;
+	font-family: 'Young', Helvetica, sans-serif;
+	font-size: 1.000em;
+	p {
+		line-height: 30px;
+		color: white;
+	}
+	h1 {
+	color: @white;
+	text-align: center;
+	}
+}
+
+/***********************Gallery****************************/
+section#gallery {
+	padding-bottom: 50px;
+	padding-top: 75px;
+	ul li {
+		display: inline-block;
+		width: 200px;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	h1 {
+		text-align: center;
+		margin-top: 10px;
+		color: white;
+	}
+	ul li a:hover {
+		opacity: 0.5;
+	}
+	img {
+		border: 4px solid white;
+	}
+	input {
+		margin-left: 140px;
+	}
+}
+
+/**********************************************************/
+/********************Get Involved Page*********************/
+
+#getInvolvedWrap {
+	background-image: url('../images/backgrounds/background5.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 2000px;
+}
+
+section#getInvolved {
+	padding-top: 80px;
+	font-family: 'Young', Helvetica, sans-serif;
+	color: #fff;
+	font-size: 0.938em;
+	.widthfloat(90%);
+	.centerIt {
+		text-align: center;
+	}
+	.info {
+		text-align: center;
+		font-size: 1.250em;
+	}
+	h1 {
+		text-align: center;
+		padding-bottom: 5px;
+	}
+	#emailUs {
+		text-align: center;
+		font-size: 1.125em;
+	}
+	#callUs {
+		text-align: center;
+		font-size: 1.125em;
+	}
+}
+
+.underline {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#mailing {
+	margin-top: 30px;
+}
+
+section.formgroup {
+	padding-top: 20px;
+	/*float: left;*/
+	font-size: 1.125em;
+	.widthfloat(-40%);
+	display: inline-block;
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;
+	margin-left: -135px;
+	width: 420px;
+	h1 {
+		color: white;
+	}
+	label {
+		color: white;
+		font-family: 'Young', Helvetica, sans-serif;
+	}
+}
+
+input {
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.btn {
+	display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888, #555);
+    background: linear-gradient(#888, #555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+    margin: 15px 0 0 40px;
+}
+
+.btn:hover {
+	background: @bggrey;
+	color: @lightgreen;
+	cursor: pointer;
+}
+
+span.radioColor {
+	color: white;
+	font-family: 'Young', Helvetica, sans-serif;
+}
+
+/**********************************************************/
+/*********************Blog Page****************************/
+section#blog {
+	padding-top: 80px;
+	padding-bottom: 50px;
+	.widthfloat(100%);
+	font-family: 'Young', Helvetica, sans-serif;
+	clear: both;
+	color: @white;
+	h1 {
+		width: 350px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	img {
+		float: left;
+	}
+	#post1 {
+		width: 80%;
+		img{
+			padding-right: 20px;
+		}
+		.post {
+			margin-top: -15px;
+			a {
+				font-size: 20px;
+				text-decoration: underline;
+			}
+		}
+	}
+	#post2 {
+		width: 80%;
+		img {
+			padding-right: 20px;
+		}
+		.post {
+			margin-top: -15px;
+			a {
+				font-size: 20px;
+				text-decoration: underline;
+			}
+		}
+	}
+	#post3 {
+		width: 80%;
+		img {
+			padding-right: 20px;
+		}
+		.post {
+			margin-top: -15px;
+			a {
+				font-size: 20px;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.author {
+	color: @bggrey;
+}
+
+/*****************************************************/
+
+
+/************************Footer****************************/
+
+footer.bottomFooter {
+	background-color: @bggrey;
+	clear: both;
+	color: @lightgreen;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	ul li {
+	display: inline;
+	padding: 0 2px 0 2px;
+	}
+	ul li a:hover {
+	opacity: 0.4;
+	}
+	h2 {
+	font-family: 'Young', Helvetica, sans-serif;
+	font-size: 0.875em;
+	}
+}
 
 }/**end phone media queries**/
 

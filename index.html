@@ -39,6 +39,7 @@
 		        <li><a href="#getInvolved" class="smoothScroll">Get Involved</a></li>
 		        <li><a href="#blog" class="smoothScroll">Blog</a></li>
 	        </ul>
+	        <p id="menu">Menu</p>
 	        <!--Paypal button insert-->
 	        <form id="paypalBtn" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 			<input type="hidden" name="cmd" value="_donations">
@@ -53,6 +54,16 @@
 			</form>
 		</nav>           
     </header>
+
+   	<script>
+
+	  $(document).ready(function(){
+	    $("#menu").click(function(){
+	      $("mainNav").slideToggle();
+	    });
+  	});
+
+  	</script>
 
 	<!---Home-->
 	<div id="containMain" data-stellar-background-ratio=".3">

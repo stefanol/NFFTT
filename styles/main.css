@@ -165,6 +165,7 @@ section#aboutUs {
   margin: 0 2.75%;
   color: white;
   /*	margin-top: 40px;*/
+
   clear: both;
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 1.063em;
@@ -415,6 +416,7 @@ section#blog #post1 .post {
 }
 section#blog #post1 .post a {
   /*				color: @bggrey;*/
+
   text-decoration: underline;
 }
 section#blog #post2 {
@@ -428,6 +430,7 @@ section#blog #post2 .post {
 }
 section#blog #post2 .post a {
   /*color: @bggrey;*/
+
   text-decoration: underline;
 }
 section#blog #post3 {
@@ -441,6 +444,7 @@ section#blog #post3 .post {
 }
 section#blog #post3 .post a {
   /*color: @bggrey;*/
+
   text-decoration: underline;
 }
 /*section#blog a {
@@ -528,4 +532,7 @@ footer.bottomFooter h2 {
   }
 }
 /***end tablet media queries**/
+@media screen and (max-width: 480px) {
+  
+}
 /**end phone media queries**/

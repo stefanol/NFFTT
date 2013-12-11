@@ -165,6 +165,7 @@ section#aboutUs {
   margin: 0 2.75%;
   color: white;
   /*	margin-top: 40px;*/
+
   clear: both;
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 1.063em;
@@ -481,37 +482,54 @@ footer.bottomFooter h2 {
 }
 /*********MEDIA QUERIES*********/
 /**********TABLET**************/
-@media only screen and (min-width: 768px) {
-  /*	nav#mainNav {
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+  nav#mainNav {
     display: inline-block;
     position: fixed;
-	ul li {
-	    display: inline;
-	    font-size: 25px;
-	    font-family: 'Young', Helvetica, sans-serif;
-	    margin: 20px 0 0 50px;
-	    padding-left: 10px;
-	    a {
-	        color: @bggrey; 
-	    }
-	}
-}*/
+    background-color: red;
+  }
+  nav#mainNav ul li {
+    display: inline;
+    font-size: 25px;
+    margin: 20px 0 0 50px;
+    padding-left: 10px;
+  }
+  nav#mainNav ul li a {
+    color: #2ecc71;
+  }
+  header#mainHeader {
+    width: 50%;
+    background-color: #3d3d3d;
+    position: fixed;
+  }
+  header#mainHeader img {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  /********HOME PAGE********/
+  /*********************/
+  /********MENU*********/
+  /***********************/
+  /*********BLOG POST********/
+  /*********BLOG POST********/
+  /*********BLOG PAGE********/
+  #containerBlogpage {
+    padding-top: 100px;
+    color: #ffffff;
+  }
+  section#blogpost {
+    width: 50%;
+    margin-left: 320px;
+  }
+  section#blogpost p {
+    font-family: 'Young', Helvetica, sans-serif;
+  }
 }
-/********HOME PAGE********/
-/*********************/
-/********MENU*********/
-/***********************/
-/*********BLOG POST********/
-/*********BLOG POST********/
-/*********BLOG PAGE********/
-#containerBlogpage {
-  padding-top: 100px;
-  color: #ffffff;
+/***end tablet media queries**/
+@media screen and (max-width: 480px) {
+  
 }
-section#blogpost {
-  width: 50%;
-  margin-left: 320px;
-}
-section#blogpost p {
-  font-family: 'Young', Helvetica, sans-serif;
-}
+/**end phone media queries**/

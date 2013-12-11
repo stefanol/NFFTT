@@ -415,7 +415,6 @@ section#blog #post1 .post {
 }
 section#blog #post1 .post a {
   /*				color: @bggrey;*/
-
   text-decoration: underline;
 }
 section#blog #post2 {
@@ -429,7 +428,6 @@ section#blog #post2 .post {
 }
 section#blog #post2 .post a {
   /*color: @bggrey;*/
-
   text-decoration: underline;
 }
 section#blog #post3 {
@@ -443,7 +441,6 @@ section#blog #post3 .post {
 }
 section#blog #post3 .post a {
   /*color: @bggrey;*/
-
   text-decoration: underline;
 }
 /*section#blog a {

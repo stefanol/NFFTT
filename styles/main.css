@@ -523,6 +523,8 @@ footer.bottomFooter h2 {
   header#mainHeader img {
     margin-left: 20px;
     margin-top: 5px;
+    height: 47px;
+    width: 100px;
   }
   /***********************************************************/
   /*********************Home Page****************************/

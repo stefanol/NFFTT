@@ -106,6 +106,9 @@ section#treeDonate img {
   width: 469px;
   margin-top: 100px;
 }
+section#treeDonate img:hover {
+  opacity: 0.4;
+}
 section#right {
   float: left;
   display: inline-block;
@@ -162,7 +165,6 @@ section#aboutUs {
   margin: 0 2.75%;
   color: white;
   /*	margin-top: 40px;*/
-
   clear: both;
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 1.063em;
@@ -484,19 +486,19 @@ footer.bottomFooter h2 {
 /**********TABLET**************/
 @media only screen and (min-width: 768px) {
   /*	nav#mainNav {
-      display: inline-block;
-      position: fixed;
-  	ul li {
-  	    display: inline;
-  	    font-size: 25px;
-  	    font-family: 'Young', Helvetica, sans-serif;
-  	    margin: 20px 0 0 50px;
-  	    padding-left: 10px;
-  	    a {
-  	        color: @bggrey; 
-  	    }
-  	}
-  }*/
+    display: inline-block;
+    position: fixed;
+	ul li {
+	    display: inline;
+	    font-size: 25px;
+	    font-family: 'Young', Helvetica, sans-serif;
+	    margin: 20px 0 0 50px;
+	    padding-left: 10px;
+	    a {
+	        color: @bggrey; 
+	    }
+	}
+}*/
 }
 /********HOME PAGE********/
 /*********************/

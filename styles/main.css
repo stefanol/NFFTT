@@ -859,6 +859,7 @@ footer.bottomFooter h2 {
   }
   section#blog #post1 {
     width: 80%;
+    background-color: white;
   }
   section#blog #post1 img {
     padding-right: 20px;

@@ -472,6 +472,17 @@ section#blog a:hover {
   -webkit-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
 }
+#containerBlogpage {
+  padding-top: 100px;
+  color: #fff;
+}
+section#blogpost {
+  width: 50%;
+  margin-left: 320px;
+}
+section#blogpost p {
+  font-family: 'Young', Helvetica, sans-serif;
+}
 /*****************************************************/
 /************************Footer****************************/
 footer.bottomFooter {

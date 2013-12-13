@@ -1,0 +1,68 @@
+nav#mainNav {
+  display: inline-block;
+  position: fixed;
+}
+nav#mainNav ul li {
+  display: inline;
+  font-size: 25px;
+  font-family: 'Young', Helvetica, sans-serif;
+  margin: 20px 0 0 50px;
+  padding-left: 10px;
+}
+nav#mainNav ul li a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+nav#mainNav a:hover {
+  color: #ed1b24;
+}
+#paypalBtn {
+  margin: 15px 0 20px 950px;
+  height: 20px;
+}
+header#mainHeader {
+  width: 100%;
+  background-color: #3d3d3d;
+  position: fixed;
+}
+header#mainHeader img {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#containerThankyou {
+  padding: 150px 0 0 90px;
+  height: 360px;
+  background-color: #27ae60;
+}
+
+h1 {
+  font-size: 4.3em;
+  font-family: 'Amplify Personal Use Only', sans-serif, Helvetica;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-family: 'Young', sans-serif, Helvetica;
+  color: #fff;
+}
+
+footer.bottomFooter {
+  background-color: #3d3d3d;
+  clear: both;
+  color: #2ecc71;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+footer.bottomFooter ul li {
+  display: inline;
+  padding: 0 2px 0 2px;
+}
+footer.bottomFooter ul li a:hover {
+  opacity: 0.4;
+}
+footer.bottomFooter h2 {
+  font-family: 'Young', Helvetica, sans-serif;
+  font-size: 0.875em;
+}

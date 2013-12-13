@@ -43,6 +43,8 @@ h4 {
 /******GLOBAL STYLES*******/
 body {
   background-color: #27ae60;
+  padding: 0;
+  margin: 0;
 }
 #containMain {
   background-image: url('../images/backgrounds/background1.jpg');
@@ -58,8 +60,9 @@ nav#mainNav ul li {
   display: inline;
   font-size: 25px;
   font-family: 'Young', Helvetica, sans-serif;
-  margin: 20px 0 0 50px;
-  padding-left: 10px;
+  margin: 20px 5px 0 50px;
+  /*padding-left: 10px;*/
+
 }
 nav#mainNav ul li a {
   color: #2ecc71;
@@ -71,14 +74,16 @@ nav#mainNav a:active {
   color: white;
 }
 #paypalBtn {
-  margin: 15px 0 20px 950px;
-  height: 20px;
+  /*	margin: 15px 0 20px 890px;
+	height: 20px;*/
+
 }
 #menu {
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 40px;
   color: #27ae60;
   display: none;
+  cursor: pointer;
 }
 header#mainHeader {
   width: 100%;
@@ -86,7 +91,7 @@ header#mainHeader {
   position: fixed;
 }
 header#mainHeader img {
-  margin-left: 20px;
+  margin-left: 40px;
   margin-top: 5px;
 }
 /***********************************************************/
@@ -174,6 +179,7 @@ section#aboutUs {
   margin: 0 2.75%;
   color: white;
   /*	margin-top: 40px;*/
+
   clear: both;
   font-family: 'Young', Helvetica, sans-serif;
   font-size: 1.063em;
@@ -424,6 +430,7 @@ section#blog #post1 .post {
 }
 section#blog #post1 .post a {
   /*				color: @bggrey;*/
+
   text-decoration: underline;
 }
 section#blog #post2 {
@@ -437,6 +444,7 @@ section#blog #post2 .post {
 }
 section#blog #post2 .post a {
   /*color: @bggrey;*/
+
   text-decoration: underline;
 }
 section#blog #post3 {
@@ -450,13 +458,9 @@ section#blog #post3 .post {
 }
 section#blog #post3 .post a {
   /*color: @bggrey;*/
+
   text-decoration: underline;
 }
-/*section#blog a {
-	color: @bggrey;
-	text-decoration: underline;
-	color: @white;
-}*/
 .author {
   color: #3d3d3d;
 }
@@ -492,34 +496,30 @@ footer.bottomFooter h2 {
 /**********TABLET**************/
 @media screen and (max-width: 768px) {
   nav#mainNav {
-    /*display: inline-block;*/
     position: fixed;
     background-color: #3d3d3d;
-    height: 78px;
+    height: 50px;
   }
   nav#mainNav ul li {
     display: inline;
-    font-size: 16px;
-    margin: 30px 0 0 2px;
-    padding-left: 5px;
+    font-size: 1.0em;
+    margin: 20px -10px 0 20px;
   }
   nav#mainNav ul li a {
     color: #2ecc71;
   }
-  #paypalBtn {
-    margin: 15px 0 20px 460px;
-    height: 20px;
+  form#paypalBtn {
+    margin: -60px 0 20px 460px;
   }
   header#mainHeader {
-    width: 768px;
+    width: 100%;
     background-color: #3d3d3d;
     position: fixed;
   }
   header#mainHeader img {
-    margin-left: 20px;
-    margin-top: 5px;
+    display: inline-block;
     height: 47px;
-    width: 100px;
+    width: 80px;
   }
   /***********************************************************/
   /*********************Home Page****************************/
@@ -549,7 +549,7 @@ footer.bottomFooter h2 {
     margin-left: 10px;
   }
   section#treeDonate img:hover {
-    opacity: 0.6;
+    opacity: 1;
   }
   section#right {
     float: left;
@@ -589,7 +589,7 @@ footer.bottomFooter h2 {
   .emphasis {
     color: #2ecc71;
     font-family: 'Champagne & Limousines', sans-serif;
-    font-size: 40px;
+    font-size: 2.500em;
   }
   /*********************About Page***************************/
   #aboutUsWrap {
@@ -607,6 +607,7 @@ footer.bottomFooter h2 {
     margin: 0 4.95%;
     color: white;
     /*	margin-top: 40px;*/
+  
     clear: both;
     font-family: 'Young', Helvetica, sans-serif;
     font-size: 1.063em;
@@ -621,10 +622,7 @@ footer.bottomFooter h2 {
     margin-bottom: -100px;
   }
   aside#donors {
-    /*	.widthfloat(40%);*/
     width: 800px;
-    /*	margin-top: 20px;*/
-    /*	padding-top: 70px;*/
   }
   aside#donors ul li {
     display: inline;
@@ -651,7 +649,7 @@ footer.bottomFooter h2 {
     height: 1150px;
   }
   section#whatWeDo {
-    font-size: 20px;
+    font-size: 1.125em;
     color: white;
     display: inline-block;
     width: 90%;
@@ -661,6 +659,9 @@ footer.bottomFooter h2 {
   }
   section#whatWeDo p {
     line-height: 45px;
+  }
+  section#whatWeDo h1 {
+    text-align: center;
   }
   #wardImg img {
     margin: -10px 0 0 220px;
@@ -688,7 +689,6 @@ footer.bottomFooter h2 {
     color: #ffffff;
   }
   span.position {
-    font-size: 20px;
     color: #a6822d;
     font-size: 1.250em;
     font-family: Helvetica;
@@ -790,7 +790,6 @@ footer.bottomFooter h2 {
   }
   section.formgroup {
     padding-top: 20px;
-    /*float: left;*/
     font-size: 1.125em;
     float: left;
     width: -40%;
@@ -859,7 +858,6 @@ footer.bottomFooter h2 {
   }
   section#blog #post1 {
     width: 80%;
-    background-color: white;
   }
   section#blog #post1 img {
     padding-right: 20px;
@@ -935,35 +933,48 @@ footer.bottomFooter h2 {
     display: none;
     position: fixed;
     background-color: #3d3d3d;
-    height: 200px;
+    height: 300px;
   }
   nav#mainNav ul li {
-    display: inline;
-    font-size: 16px;
-    margin: 30px 0 0 2px;
-    padding-left: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 65px;
+    height: 10px;
+    font-size: 1.000em;
+    margin: 10px 0 10px -155px;
   }
   nav#mainNav ul li a {
     color: #2ecc71;
-  }
-  #paypalBtn {
-    margin: 15px 0 20px 460px;
     display: block;
-    height: 20px;
+  }
+  nav#mainNav ul li #paypalBtn {
+    display: block;
+    margin: 40px 340px 0 290px;
   }
   header#mainHeader {
     width: 100%;
     background-color: #3d3d3d;
     position: fixed;
-    height: 100px;
+    height: 130px;
     padding-bottom: 100px;
+    top: 0px;
+    overflow: hidden;
   }
   header#mainHeader img {
-    margin-left: 160px;
+    margin-left: 170px;
     margin-top: 5px;
+    margin-bottom: -5px;
   }
   header#mainHeader #menu {
     display: block;
+    text-align: center;
+    height: 0;
+  }
+  header#mainHeader #menu img {
+    height: 25px;
+    width: 25px;
+    margin: 30px 0 -90px 0;
   }
   /***********************************************************/
   /*********************Home Page****************************/
@@ -981,7 +992,7 @@ footer.bottomFooter h2 {
     margin-top: 300px;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.000em;
   }
   section#left .topBtn {
     margin-top: -15px;
@@ -990,11 +1001,6 @@ footer.bottomFooter h2 {
     text-align: center;
   }
   section#treeDonate img {
-    /*	.widthfloat(70%);
-	 height: 300px;
-	 width: 269px;
-	 margin-top: 100px;
-	 margin-left: 10px;*/
     display: none;
   }
   section#right {
@@ -1035,24 +1041,25 @@ footer.bottomFooter h2 {
   .emphasis {
     color: #2ecc71;
     font-family: 'Champagne & Limousines', sans-serif;
-    font-size: 40px;
+    font-size: 2.500em;
   }
   /*********************About Page***************************/
   #aboutUsWrap {
     background-image: url('../images/backgrounds/background4.jpg');
     background-size: cover;
     background-position: center;
-    height: 2100px;
+    height: 2200px;
   }
   section#aboutUs {
     padding-top: 90px;
-    font-size: 1.125em;
+    font-size: 1.0em;
     float: left;
     display: inline-block;
     width: 90%;
     margin: 0 4.95%;
     color: white;
     /*	margin-top: 40px;*/
+  
     clear: both;
     font-family: 'Young', Helvetica, sans-serif;
     font-size: 1.063em;
@@ -1092,10 +1099,10 @@ footer.bottomFooter h2 {
     background-image: url('../images/backgrounds/background3.jpg');
     background-size: cover;
     background-position: center;
-    height: 1150px;
+    height: 1100px;
   }
   section#whatWeDo {
-    font-size: 20px;
+    font-size: 1.000em;
     color: white;
     display: inline-block;
     width: 90%;
@@ -1129,6 +1136,7 @@ footer.bottomFooter h2 {
     width: 90%;
     margin: 0 4.95%;
     /*	margin-left: 200px;*/
+  
   }
   section#ourTeam ul li {
     line-height: 30px;
@@ -1138,7 +1146,6 @@ footer.bottomFooter h2 {
     color: #ffffff;
   }
   span.position {
-    font-size: 20px;
     color: #a6822d;
     font-size: 1.250em;
     font-family: Helvetica;
@@ -1200,7 +1207,7 @@ footer.bottomFooter h2 {
     background-image: url('../images/backgrounds/background5.jpg');
     background-size: cover;
     background-position: center;
-    height: 2000px;
+    height: 1900px;
   }
   section#getInvolved {
     padding-top: 80px;
@@ -1240,7 +1247,6 @@ footer.bottomFooter h2 {
   }
   section.formgroup {
     padding-top: 20px;
-    /*float: left;*/
     font-size: 1.125em;
     float: left;
     width: -40%;
@@ -1320,7 +1326,7 @@ footer.bottomFooter h2 {
     margin-top: -15px;
   }
   section#blog #post1 .post a {
-    font-size: 20px;
+    font-size: 1.250em;
     text-decoration: underline;
   }
   section#blog #post2 {
@@ -1333,7 +1339,7 @@ footer.bottomFooter h2 {
     margin-top: -15px;
   }
   section#blog #post2 .post a {
-    font-size: 20px;
+    font-size: 1.250em;
     text-decoration: underline;
   }
   section#blog #post3 {
@@ -1346,7 +1352,7 @@ footer.bottomFooter h2 {
     margin-top: -15px;
   }
   section#blog #post3 .post a {
-    font-size: 20px;
+    font-size: 1.250em;
     text-decoration: underline;
   }
   .author {

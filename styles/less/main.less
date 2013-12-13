@@ -10,6 +10,8 @@
 
 body {
   background-color: @bggreen;
+  padding:0;
+  margin:0;
 }
 
 #containMain {
@@ -26,8 +28,8 @@ nav#mainNav {
 	    display: inline;
 	    font-size: 25px;
 	    font-family: 'Young', Helvetica, sans-serif;
-	    margin: 20px 0 0 50px;
-	    padding-left: 10px;
+	    margin: 20px 5px 0 50px;
+	    /*padding-left: 10px;*/
 	    a {
 	        color: @lightgreen; 
 	    }
@@ -43,8 +45,8 @@ nav#mainNav a:active {
 }
 
 #paypalBtn {
-	margin: 15px 0 20px 950px;
-	height: 20px;
+/*	margin: 15px 0 20px 890px;
+	height: 20px;*/
 }
 
 #menu {
@@ -52,6 +54,7 @@ nav#mainNav a:active {
 	font-size: 40px;
 	color: @bggreen;
 	display: none;
+	cursor: pointer;
 }
 
 header#mainHeader {
@@ -59,7 +62,7 @@ header#mainHeader {
     background-color: @bggrey;
     position: fixed;
     img {
-    	margin-left: 20px;
+    	margin-left: 40px;
     	margin-top: 5px;
     }
 }
@@ -428,15 +431,9 @@ section#blog {
 				text-decoration: underline;
 			}
 		}
-
+	}
 }
-}
 
-/*section#blog a {
-	color: @bggrey;
-	text-decoration: underline;
-	color: @white;
-}*/
 
 .author {
 	color: @bggrey;
@@ -480,37 +477,33 @@ footer.bottomFooter {
 
 @media screen and (max-width: 768px) {
 
-
 nav#mainNav {
-    /*display: inline-block;*/
     position: fixed;
     background-color: @bggrey;
-    height: 78px;
+    height: 50px;
 	ul li {
 	    display: inline;
-	    font-size: 16px;
-	    margin: 30px 0 0 2px;
-	    padding-left: 5px;
+	    font-size: 1.0em;
+	    margin: 20px -10px 0 20px;
 	    a {
 	        color: @lightgreen; 
 	    }
 	}
 }
 
-#paypalBtn {
-	margin: 15px 0 20px 460px;
-	height: 20px;
+form#paypalBtn {
+	margin: -60px 0 20px 460px;
 }
 
+
 header#mainHeader {
-	width: 768px;
+	width: 100%;
     background-color: @bggrey;
     position: fixed;
     img {
-    	margin-left: 20px;
-    	margin-top: 5px;
+    	display: inline-block;
     	height: 47px;
-    	width: 100px;
+    	width: 80px;
     }
 }
 
@@ -539,7 +532,7 @@ section#treeDonate img {
 }
 
 section#treeDonate img:hover {
-	opacity: 0.6;
+	opacity: 1;
 }
 
 section#right {
@@ -581,7 +574,7 @@ section#right {
 .emphasis {
 	color: @lightgreen;
 	font-family: 'Champagne & Limousines', sans-serif;
-	font-size: 40px;
+	font-size: 2.500em;
 }
 /*********************About Page***************************/
 
@@ -613,10 +606,7 @@ section#aboutUs {
 }
 
 aside#donors {
-/*	.widthfloat(40%);*/
 	width: 800px;
-/*	margin-top: 20px;*/
-/*	padding-top: 70px;*/
 	ul li {
 		display: inline;
 		width: 200px;
@@ -645,13 +635,16 @@ aside#donors {
 }
 
 section#whatWeDo {
-	font-size: 20px;
+	font-size: 1.125em;
 	color: white;
 	.widthfloat(90%);
 	float: left;
 	margin-top: 30px;
 	p {
 		line-height: 45px;
+	}
+	h1 {
+		text-align: center;
 	}
 }
 
@@ -682,7 +675,6 @@ section#ourTeam {
 }
 
 span.position {
-	font-size: 20px;
 	color: @gold;
 	font-size: 1.250em;
 	font-family: Helvetica;
@@ -789,7 +781,6 @@ section#getInvolved {
 
 section.formgroup {
 	padding-top: 20px;
-	/*float: left;*/
 	font-size: 1.125em;
 	.widthfloat(-40%);
 	display: inline-block;
@@ -857,7 +848,6 @@ section#blog {
 	}
 	#post1 {
 		width: 80%;
-		background-color: white;
 		img{
 			padding-right: 20px;
 		}
@@ -942,36 +932,48 @@ nav#mainNav {
     display: none;
     position: fixed;
     background-color: @bggrey;
-    height: 200px;
+    height: 300px;
 	ul li {
-	    display: inline;
-	    font-size: 16px;
-	    margin: 30px 0 0 2px;
-	    padding-left: 5px;
+	    display: block;
+	    width: 100%;
+	    text-align: center;
+	    line-height: 65px;
+	    height: 10px;
+	    font-size: 1.000em;
+	    margin: 10px 0 10px -155px;
 	    a {
 	        color: @lightgreen; 
+	        display: block;
+	    }
+	    #paypalBtn {
+	    	display: block;
+	    	margin: 40px 340px 0 290px;
 	    }
 	}
-}
-
-#paypalBtn {
-	margin: 15px 0 20px 460px;
-	display: block;
-	height: 20px;
 }
 
 header#mainHeader {
 	width: 100%;
     background-color: @bggrey;
     position: fixed;
-    height: 100px;
+    height: 130px;
     padding-bottom: 100px;
+    top: 0px;
+    overflow:hidden;
     img {
-    	margin-left: 160px;
+    	margin-left: 170px;
     	margin-top: 5px;
+    	margin-bottom: -5px;
     }
     #menu {
 	display: block;
+	text-align: center;
+	height: 0;
+	img {
+	height: 25px;
+	width: 25px;
+	margin: 30px 0 -90px 0;
+	}
 	}
 }
 
@@ -990,7 +992,7 @@ section#left {
 	margin-top: 300px;
 	color: white;
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.000em;
 	.topBtn {
 		margin-top: -15px
 	}
@@ -1000,11 +1002,6 @@ section#left {
 }
 
 section#treeDonate img {
-/*	.widthfloat(70%);
-	 height: 300px;
-	 width: 269px;
-	 margin-top: 100px;
-	 margin-left: 10px;*/
 	 display: none;
 }
 
@@ -1047,7 +1044,7 @@ section#right {
 .emphasis {
 	color: @lightgreen;
 	font-family: 'Champagne & Limousines', sans-serif;
-	font-size: 40px;
+	font-size: 2.500em;
 }
 /*********************About Page***************************/
 
@@ -1055,12 +1052,12 @@ section#right {
 	background-image: url('../images/backgrounds/background4.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 2100px;
+	height: 2200px;
 }
 
 section#aboutUs {
 	padding-top: 90px;
-	font-size: 1.125em;
+	font-size: 1.0em;
 	.widthfloat(90%);
 	color: white;
 /*	margin-top: 40px;*/
@@ -1105,11 +1102,11 @@ aside#donors {
 	background-image: url('../images/backgrounds/background3.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 1150px;
+	height: 1100px;
 }
 
 section#whatWeDo {
-	font-size: 20px;
+	font-size: 1.000em;
 	color: white;
 	.widthfloat(90%);
 	float: left;
@@ -1152,7 +1149,6 @@ section#ourTeam {
 }
 
 span.position {
-	font-size: 20px;
 	color: @gold;
 	font-size: 1.250em;
 	font-family: Helvetica;
@@ -1218,7 +1214,7 @@ section#gallery {
 	background-image: url('../images/backgrounds/background5.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 2000px;
+	height: 1900px;
 }
 
 section#getInvolved {
@@ -1259,7 +1255,6 @@ section#getInvolved {
 
 section.formgroup {
 	padding-top: 20px;
-	/*float: left;*/
 	font-size: 1.125em;
 	.widthfloat(-40%);
 	display: inline-block;
@@ -1336,7 +1331,7 @@ section#blog {
 		.post {
 			margin-top: -15px;
 			a {
-				font-size: 20px;
+				font-size: 1.250em;
 				text-decoration: underline;
 			}
 		}
@@ -1349,7 +1344,7 @@ section#blog {
 		.post {
 			margin-top: -15px;
 			a {
-				font-size: 20px;
+				font-size: 1.250em;
 				text-decoration: underline;
 			}
 		}
@@ -1362,7 +1357,7 @@ section#blog {
 		.post {
 			margin-top: -15px;
 			a {
-				font-size: 20px;
+				font-size: 1.250em;
 				text-decoration: underline;
 			}
 		}

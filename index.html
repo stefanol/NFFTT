@@ -18,14 +18,28 @@
   <link rel="stylesheet" type="text/css" href="styles/jquery.fancybox-buttons.css?v=1.0.5" />
   <link rel="stylesheet" href="styles/print.css" type="text/css" media="print" >
 
+
+  <script>
+
+	  $(document).ready(function(){
+	    $("#menu").click(function(){
+	      $("nav").slideToggle();
+	    });
+	});
+
+  </script>
 </head>
 <body>
 <!--Nav-->
 	<!--Header-->
 
+<!-- 	<div></div> -->
+
 	<header id="mainHeader">   
+    	<div id="menu"><img src="images/pics/menu.svg"></div>
     	<a href="index.html"><img src="images/logos/logo.png" height="70" width="130"></a>
-        <nav id="mainNav">
+    	<!-- <p id="menu">Menu</p> -->
+    	        <nav id="mainNav">
 	        <ul class="dropdown">
 		        <li><a href="#containMain" class="smoothScroll">Home</a></li>
 		        <li>
@@ -38,10 +52,7 @@
 		        <li><a href="#gallery" class="smoothScroll">Gallery</a></li>
 		        <li><a href="#getInvolved" class="smoothScroll">Get Involved</a></li>
 		        <li><a href="#blog" class="smoothScroll">Blog</a></li>
-	        </ul>
-	        <p id="menu">Menu</p>
-	        <!--Paypal button insert-->
-	        <form id="paypalBtn" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+		        <li><form id="paypalBtn" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 			<input type="hidden" name="cmd" value="_donations">
 			<input type="hidden" name="business" value="nfftt@gmail.com">
 			<input type="hidden" name="lc" value="US">
@@ -50,20 +61,13 @@
 			<input type="hidden" name="currency_code" value="CAD">
 			<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
 			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+			<img alt="paypal" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form></li>
+	        </ul>
+    <!--Paypal button insert-->
+
 		</nav>           
     </header>
-
-   	<script>
-
-	  $(document).ready(function(){
-	    $("#menu").click(function(){
-	      $("mainNav").slideToggle();
-	    });
-  	});
-
-  	</script>
 
 	<!---Home-->
 	<div id="containMain" data-stellar-background-ratio=".3">
@@ -291,8 +295,6 @@
 					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
 				}
 			});
-
-
 			/*
 			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
 			 */
@@ -505,7 +507,7 @@
 	       <h1>Don’t miss your chance to win big this Friday!</h1>
 	       <img src="images/pics/post1.jpg">
 	       <p class="author">Not Far From The Tree posted on November 2nd, 2013</p>
-	       <p class="post">Whether you’re celebrating your birthday or a bachelorette party, throwing axes will bring the festivities to a boastfully badass level. We won’t be heaving any hatchets at this Friday’s End of Season Celebration – but we will be raff... <a href="#">Read more</a></p>
+	       <p class="post">Whether you’re celebrating your birthday or a bachelorette party, throwing axes will bring the festivities to a boastfully badass level. We won’t be heaving any hatchets at this Friday’s End of Season Celebration – but we will be raff... <a href="blog.php">Read more</a></p>
 	     </div>
 	 
 	     <div id="post2">
